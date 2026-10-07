@@ -1,4 +1,4 @@
-import{i as e,r as t}from"./index-CcPLvGlF.js";var n=t();function r(t){let r={a:`a`,h1:`h1`,hr:`hr`,li:`li`,ol:`ol`,p:`p`,...e(),...t.components},{Blank:i,Choice:o,ChoiceSet:s,Choices:c,DragAndDrop:l,DropZone:u,FillIn:d}=r;return i||a(`Blank`,!0),o||a(`Choice`,!0),s||a(`ChoiceSet`,!0),c||a(`Choices`,!0),l||a(`DragAndDrop`,!0),u||a(`DropZone`,!0),d||a(`FillIn`,!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h1,{id:`3d-modelling`,children:`3D Modelling`}),`
+import{i as e,r as t}from"./index-B7AwCkLc.js";var n=t();function r(t){let r={a:`a`,h1:`h1`,hr:`hr`,li:`li`,ol:`ol`,p:`p`,...e(),...t.components},{Blank:i,Choice:o,ChoiceSet:s,Choices:c,DragAndDrop:l,DropZone:u,FillIn:d}=r;return i||a(`Blank`,!0),o||a(`Choice`,!0),s||a(`ChoiceSet`,!0),c||a(`Choices`,!0),l||a(`DragAndDrop`,!0),u||a(`DropZone`,!0),d||a(`FillIn`,!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h1,{id:`3d-modelling`,children:`3D Modelling`}),`
 `,(0,n.jsx)(r.hr,{}),`
 `,(0,n.jsx)(r.p,{children:`Put the following stages in the correct order.`}),`
 `,(0,n.jsx)(l,{words:`classified ground points;contours/cross-sections;laser scanning;cut-and-fill calculation;point cloud;TIN(Triangulated Irregular Network)/DTM(Digital Terrain Model)`,children:(0,n.jsxs)(r.ol,{children:[`
@@ -87,16 +87,29 @@ Modern smart cultural heritage services use digital technologies to make histori
 `,(0,n.jsx)(r.p,{children:`Digital reconstruction also makes it possible to represent the changing appearance of historical buildings. Instead of keeping only an “As-is” model, a digital database can contain different historical states, including the “As-build” condition and later “As-was-in-year” stages. Users can compare these versions and observe additions, reconstructions, or changes in architectural form. In this way, 3D visualization becomes more than a realistic representation: it becomes a tool for communicating architectural history.`}),`
 `,(0,n.jsx)(r.p,{children:`The overall workflow connects low-cost UAV data acquisition with point-cloud processing, 3D reconstruction, mesh optimization, texturing, and real-time visualization. The resulting digital assets can support cultural tourism, heritage documentation, conservation, condition assessment, restoration planning, and interactive storytelling. By combining accurate geometric data with optimized textures and LOD models, complex historical buildings can be presented effectively on Web3D, AR, MR, and VR platforms without requiring every device to process the original high-density model.`}),`
 `,(0,n.jsx)(r.hr,{}),`
+`,(0,n.jsx)(r.p,{children:`Choose the best answer based on the article above.`}),`
+`,(0,n.jsxs)(r.ol,{children:[`
+`,(0,n.jsxs)(r.li,{children:[`
 `,(0,n.jsxs)(r.p,{children:[`According to the article, cloudy conditions around midday are favourable for UAV flights because they reduce strong and extended shadows on the building.\r
-`,(0,n.jsxs)(s,{children:[` `,(0,n.jsxs)(c,{single:!0,children:[` `,(0,n.jsx)(o,{correct:!0,children:`True`}),` `,(0,n.jsx)(o,{children:`False`}),` `]}),` `]}),`\r
-Terrestrial laser scanning is presented as especially effective for capturing roofs and other elevated surfaces, which makes UAV imagery largely unnecessary.\r
-`,(0,n.jsxs)(s,{children:[` `,(0,n.jsxs)(c,{single:!0,children:[` `,(0,n.jsx)(o,{children:`True`}),` `,(0,n.jsx)(o,{correct:!0,children:`False`}),` `]}),` `]}),`\r
-Rather than retaining all geometric detail in a simplified mesh, surface information from the high-poly model can be transferred to it by means of a normal map.\r
-`,(0,n.jsxs)(s,{children:[` `,(0,n.jsxs)(c,{single:!0,children:[` `,(0,n.jsx)(o,{correct:!0,children:`True`}),` `,(0,n.jsx)(o,{children:`False`}),` `]}),` `]}),`\r
-The article suggests that dividing a building into numerous small meshes usually boosts performance, since it lowers the number of draw calls.\r
-`,(0,n.jsxs)(s,{children:[` `,(0,n.jsxs)(c,{single:!0,children:[` `,(0,n.jsx)(o,{children:`True`}),` `,(0,n.jsx)(o,{correct:!0,children:`False`}),` `]}),` `]}),`\r
-The polygon range recommended for mobile devices is considerably higher than the approximate limit suggested for Web applications.\r
+`,(0,n.jsxs)(s,{children:[` `,(0,n.jsxs)(c,{single:!0,children:[` `,(0,n.jsx)(o,{correct:!0,children:`True`}),` `,(0,n.jsx)(o,{children:`False`}),` `]}),` `]})]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`Terrestrial laser scanning is presented as especially effective for capturing roofs and other elevated surfaces, which makes UAV imagery largely unnecessary.\r
 `,(0,n.jsxs)(s,{children:[` `,(0,n.jsxs)(c,{single:!0,children:[` `,(0,n.jsx)(o,{children:`True`}),` `,(0,n.jsx)(o,{correct:!0,children:`False`}),` `]}),` `]})]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`Rather than retaining all geometric detail in a simplified mesh, surface information from the high-poly model can be transferred to it by means of a normal map.\r
+`,(0,n.jsxs)(s,{children:[` `,(0,n.jsxs)(c,{single:!0,children:[` `,(0,n.jsx)(o,{correct:!0,children:`True`}),` `,(0,n.jsx)(o,{children:`False`}),` `]}),` `]})]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`The article suggests that dividing a building into numerous small meshes usually boosts performance, since it lowers the number of draw calls.\r
+`,(0,n.jsxs)(s,{children:[` `,(0,n.jsxs)(c,{single:!0,children:[` `,(0,n.jsx)(o,{children:`True`}),` `,(0,n.jsx)(o,{correct:!0,children:`False`}),` `]}),` `]})]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`The polygon range recommended for mobile devices is considerably higher than the approximate limit suggested for Web applications.\r
+`,(0,n.jsxs)(s,{children:[` `,(0,n.jsxs)(c,{single:!0,children:[` `,(0,n.jsx)(o,{children:`True`}),` `,(0,n.jsx)(o,{correct:!0,children:`False`}),` `]}),` `]})]}),`
+`]}),`
+`]}),`
 `,(0,n.jsx)(r.hr,{}),`
 `,(0,n.jsxs)(r.p,{children:[`Watch the video on `,(0,n.jsx)(r.a,{href:`https://www.youtube.com/watch?v=9NLO0ur4l4U`,children:`How to create a topography in Revit?`}),` and put the stages (A–H) in the correct order.`]}),`
 `,(0,n.jsx)(r.p,{children:`Creating a Topography in Revit from AutoCAD Contour Lines`}),`

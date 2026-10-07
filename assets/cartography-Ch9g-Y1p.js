@@ -1,4 +1,4 @@
-import{i as e,r as t}from"./index-CcPLvGlF.js";var n=t();function r(t){let r={a:`a`,h1:`h1`,hr:`hr`,li:`li`,ol:`ol`,p:`p`,...e(),...t.components},{Blank:i,Choice:o,ChoiceSet:s,Choices:c,DragAndDrop:l,DropZone:u,FillIn:d,Img:f}=r;return i||a(`Blank`,!0),o||a(`Choice`,!0),s||a(`ChoiceSet`,!0),c||a(`Choices`,!0),l||a(`DragAndDrop`,!0),u||a(`DropZone`,!0),d||a(`FillIn`,!0),f||a(`Img`,!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h1,{id:`cartography`,children:`Cartography`}),`
+import{i as e,r as t}from"./index-B7AwCkLc.js";var n=t();function r(t){let r={a:`a`,h1:`h1`,hr:`hr`,li:`li`,ol:`ol`,p:`p`,...e(),...t.components},{Blank:i,Choice:o,ChoiceSet:s,Choices:c,DragAndDrop:l,DropZone:u,FillIn:d,Img:f}=r;return i||a(`Blank`,!0),o||a(`Choice`,!0),s||a(`ChoiceSet`,!0),c||a(`Choices`,!0),l||a(`DragAndDrop`,!0),u||a(`DropZone`,!0),d||a(`FillIn`,!0),f||a(`Img`,!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h1,{id:`cartography`,children:`Cartography`}),`
 `,(0,n.jsxs)(r.ol,{children:[`
 `,(0,n.jsx)(r.li,{children:`When was the last time you used a paper map instead of a GPS application or your phone? What was the experience like?`}),`
 `,(0,n.jsx)(r.li,{children:`Besides drawing ability, what skills and knowledge do you think a professional mapmaker needs?`}),`
@@ -108,7 +108,7 @@ import{i as e,r as t}from"./index-CcPLvGlF.js";var n=t();function r(t){let r={a:
 `]}),`
 `,(0,n.jsx)(r.hr,{}),`
 `,(0,n.jsx)(r.p,{children:`Attributions`}),`
-`,(0,n.jsxs)(r.p,{children:[`The text Types of Maps is a derivative of `,(0,n.jsx)(r.a,{href:`https://colorado.pressbooks.pub/makingmaps/chapter/chapter-2-types-of-maps/`,children:`“Types of Maps”, Making Effective Maps: Cartographic Visualization for GIS`}),`. Sarah Schlosser. Colorado Pressbooks, 2024. Licensed under Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0).`]}),`
+`,(0,n.jsxs)(r.p,{children:[`The text Types of Maps is a derivative of `,(0,n.jsx)(r.a,{href:`https://colorado.pressbooks.pub/makingmaps/chapter/chapter-2-types-of-maps/`,children:`“Types of Maps”, Making Effective Maps: Cartographic Visualization for GIS`}),`. Sarah Schlosser. Colorado Pressbooks, 2024. Licensed under CC BY-NC-SA 4.0.`]}),`
 `,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.a,{href:`https://www.youtube.com/watch?v=4i_6eToM3X8`,children:`Understanding Contour Lines`})}),`
 `,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.a,{href:`https://theconversation.com/five-maps-that-will-change-how-you-see-the-world-74967`,children:`Five maps that will change how you see the world`}),`\r
 `,(0,n.jsx)(r.a,{href:`https://theconversation.com/maps-shape-our-lives-showing-us-not-just-where-we-are-but-who-we-are-224125`,children:`Maps shape our lives – showing us not just where we are, but who we are`}),`\r

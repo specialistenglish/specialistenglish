@@ -1,4 +1,4 @@
-import{i as e,r as t}from"./index-CcPLvGlF.js";var n=t();function r(t){let r={a:`a`,h1:`h1`,hr:`hr`,li:`li`,ol:`ol`,p:`p`,...e(),...t.components},{Blank:i,Choice:o,ChoiceSet:s,Choices:c,DragAndDrop:l,DropZone:u,FillIn:d}=r;return i||a(`Blank`,!0),o||a(`Choice`,!0),s||a(`ChoiceSet`,!0),c||a(`Choices`,!0),l||a(`DragAndDrop`,!0),u||a(`DropZone`,!0),d||a(`FillIn`,!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h1,{id:`gis`,children:`GIS`}),`
+import{i as e,r as t}from"./index-B7AwCkLc.js";var n=t();function r(t){let r={a:`a`,h1:`h1`,hr:`hr`,li:`li`,ol:`ol`,p:`p`,...e(),...t.components},{Blank:i,Choice:o,ChoiceSet:s,Choices:c,DragAndDrop:l,DropZone:u,FillIn:d}=r;return i||a(`Blank`,!0),o||a(`Choice`,!0),s||a(`ChoiceSet`,!0),c||a(`Choices`,!0),l||a(`DragAndDrop`,!0),u||a(`DropZone`,!0),d||a(`FillIn`,!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h1,{id:`gis`,children:`GIS`}),`
 `,(0,n.jsxs)(r.ol,{children:[`
 `,(0,n.jsx)(r.li,{children:`What are some common uses of GIS in everyday life?`}),`
 `,(0,n.jsx)(r.li,{children:`How have you used GIS in your studies?`}),`
@@ -19,8 +19,8 @@ import{i as e,r as t}from"./index-CcPLvGlF.js";var n=t();function r(t){let r={a:
 7.A `,(0,n.jsx)(i,{answer:`spatial join`}),` combines the attributes of two feature layers on the basis of their spatial relationship rather than a shared field.\r
 8.`,(0,n.jsx)(i,{answer:`Orthorectification`}),` is the process of removing the geometric distortion caused by terrain relief and camera tilt from an aerial image.`]})}),`
 `,(0,n.jsx)(r.hr,{}),`
-`,(0,n.jsx)(r.p,{children:`Complete each sentence with the correct word from the word bank. Two words will not be needed.\r
-buffer   •   gazetteer   •   hillshade   •   interoperability   •   least-cost path   •   legend   •   network analysis   •   projection   •   scale   •   topology`}),`
+`,(0,n.jsx)(r.p,{children:`Complete each sentence with the correct word from the word bank. Two words will not be needed.`}),`
+`,(0,n.jsx)(r.p,{children:`buffer   •   gazetteer   •   hillshade   •   interoperability   •   least-cost path   •   legend   •   network analysis   •   projection   •   scale   •   topology`}),`
 `,(0,n.jsx)(d,{children:(0,n.jsxs)(r.p,{children:[`1.A map `,(0,n.jsx)(i,{answer:`legend;key`}),` explains the symbols, colours and patterns used to represent features.\r
 2.Because the Earth is a sphere, every map `,(0,n.jsx)(i,{answer:`projection`}),` introduces some form of distortion.\r
 3.At a large `,(0,n.jsx)(i,{answer:`scale`}),`, a map shows a small area in great detail; at a small one, it covers a wide area with less detail.\r
@@ -44,18 +44,32 @@ buffer   •   gazetteer   •   hillshade   •   interoperability   •   leas
 `,(0,n.jsx)(r.p,{children:`Cities like London, Amsterdam, Barcelona and Dublin have already embraced similar dashboards. Yet none of this is effortless: missing sensor readings create gaps that distort the full picture, and cluttered, overly dense visuals can generate as much confusion as clarity. Careful data cleaning before any mapping or charting begins remains, therefore, an unglamorous but essential first step toward a dashboard anyone can actually trust.`}),`
 `,(0,n.jsx)(r.hr,{}),`
 `,(0,n.jsx)(r.p,{children:`Having read the text, choose the best answer.`}),`
-`,(0,n.jsx)(s,{children:(0,n.jsxs)(r.p,{children:[`According to the article, what is the real challenge cities face regarding data today?\r
-`,(0,n.jsxs)(c,{single:!0,children:[` `,(0,n.jsx)(o,{children:`A. Collecting enough data from sensors and smartphones`}),` `,(0,n.jsx)(o,{correct:!0,children:`B. Making sense of the overwhelming flood of data`}),` `,(0,n.jsx)(o,{children:`C. Convincing citizens to share their data`}),` `,(0,n.jsx)(o,{children:`D. Storing data securely for long periods`}),` `]}),`\r
-Why is GIS especially valuable for analysing urban data?\r
-`,(0,n.jsxs)(c,{single:!0,children:[` `,(0,n.jsx)(o,{children:`A. It is cheaper to run than other data systems`}),` `,(0,n.jsx)(o,{children:`B. It works without an internet connection`}),` `,(0,n.jsx)(o,{correct:!0,children:`C. Most urban data is spatial, so it can be placed on a map for geographic analysis`}),` `,(0,n.jsx)(o,{children:`D. It automatically cleans messy datasets`}),` `]}),`\r
-Which technique does the article mention for compressing many variables into a smaller number of meaningful ones?\r
-`,(0,n.jsxs)(c,{single:!0,children:[` `,(0,n.jsx)(o,{children:`A. Dense pixel displays`}),` `,(0,n.jsx)(o,{children:`B. Chernoff faces`}),` `,(0,n.jsx)(o,{children:`C. Parallel coordinates`}),` `,(0,n.jsx)(o,{correct:!0,children:`D. Principal component analysis`}),` `]}),`\r
-What do “linking and brushing” allow an analyst to do?\r
-`,(0,n.jsxs)(c,{single:!0,children:[` `,(0,n.jsx)(o,{correct:!0,children:`A. Highlight a cluster in one chart and see it marked automatically in another`}),` `,(0,n.jsx)(o,{children:`B. Zoom seamlessly from a city-wide view to street level`}),` `,(0,n.jsx)(o,{children:`C. Merge a NoSQL database with a spatial database`}),` `,(0,n.jsx)(o,{children:`D. Encode variables as facial expressions`}),` `]}),`\r
-In the Istanbul air quality and traffic dashboard example, which chart type is used to summarise the spread of speeds and vehicle numbers?\r
-`,(0,n.jsxs)(c,{single:!0,children:[` `,(0,n.jsx)(o,{children:`A. Sunburst chart`}),` `,(0,n.jsx)(o,{children:`B. Treemap`}),` `,(0,n.jsx)(o,{correct:!0,children:`C. Box plots`}),` `,(0,n.jsx)(o,{children:`D. Pie chart`}),` `]}),`\r
-According to the article, what is described as an essential but unglamorous first step before mapping or charting dashboard data?\r
-`,(0,n.jsxs)(c,{single:!0,children:[` `,(0,n.jsx)(o,{children:`A. Choosing an appropriate satellite basemap`}),` `,(0,n.jsx)(o,{children:`B. Setting up a relational database extension`}),` `,(0,n.jsx)(o,{children:`C. Hiring additional data analysts`}),` `,(0,n.jsx)(o,{correct:!0,children:`D. Careful data cleaning`}),` `]})]})}),`
+`,(0,n.jsx)(s,{children:(0,n.jsxs)(r.ol,{children:[`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`According to the article, what is the real challenge cities face regarding data today?\r
+`,(0,n.jsxs)(c,{single:!0,children:[` `,(0,n.jsx)(o,{children:`A. Collecting enough data from sensors and smartphones`}),` `,(0,n.jsx)(o,{correct:!0,children:`B. Making sense of the overwhelming flood of data`}),` `,(0,n.jsx)(o,{children:`C. Convincing citizens to share their data`}),` `,(0,n.jsx)(o,{children:`D. Storing data securely for long periods`}),` `]})]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`Why is GIS especially valuable for analysing urban data?\r
+`,(0,n.jsxs)(c,{single:!0,children:[` `,(0,n.jsx)(o,{children:`A. It is cheaper to run than other data systems`}),` `,(0,n.jsx)(o,{children:`B. It works without an internet connection`}),` `,(0,n.jsx)(o,{correct:!0,children:`C. Most urban data is spatial, so it can be placed on a map for geographic analysis`}),` `,(0,n.jsx)(o,{children:`D. It automatically cleans messy datasets`}),` `]})]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`Which technique does the article mention for compressing many variables into a smaller number of meaningful ones?\r
+`,(0,n.jsxs)(c,{single:!0,children:[` `,(0,n.jsx)(o,{children:`A. Dense pixel displays`}),` `,(0,n.jsx)(o,{children:`B. Chernoff faces`}),` `,(0,n.jsx)(o,{children:`C. Parallel coordinates`}),` `,(0,n.jsx)(o,{correct:!0,children:`D. Principal component analysis`}),` `]})]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`What do “linking and brushing” allow an analyst to do?\r
+`,(0,n.jsxs)(c,{single:!0,children:[` `,(0,n.jsx)(o,{correct:!0,children:`A. Highlight a cluster in one chart and see it marked automatically in another`}),` `,(0,n.jsx)(o,{children:`B. Zoom seamlessly from a city-wide view to street level`}),` `,(0,n.jsx)(o,{children:`C. Merge a NoSQL database with a spatial database`}),` `,(0,n.jsx)(o,{children:`D. Encode variables as facial expressions`}),` `]})]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`In the Istanbul air quality and traffic dashboard example, which chart type is used to summarise the spread of speeds and vehicle numbers?\r
+`,(0,n.jsxs)(c,{single:!0,children:[` `,(0,n.jsx)(o,{children:`A. Sunburst chart`}),` `,(0,n.jsx)(o,{children:`B. Treemap`}),` `,(0,n.jsx)(o,{correct:!0,children:`C. Box plots`}),` `,(0,n.jsx)(o,{children:`D. Pie chart`}),` `]})]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`According to the article, what is described as an essential but unglamorous first step before mapping or charting dashboard data?\r
+`,(0,n.jsxs)(c,{single:!0,children:[` `,(0,n.jsx)(o,{children:`A. Choosing an appropriate satellite basemap`}),` `,(0,n.jsx)(o,{children:`B. Setting up a relational database extension`}),` `,(0,n.jsx)(o,{children:`C. Hiring additional data analysts`}),` `,(0,n.jsx)(o,{correct:!0,children:`D. Careful data cleaning`}),` `]})]}),`
+`]}),`
+`]})}),`
 `,(0,n.jsx)(r.hr,{}),`
 `,(0,n.jsxs)(r.p,{children:[`Watch the video about `,(0,n.jsx)(r.a,{href:`https://www.youtube.com/watch?v=QlE2pdb1rxQ`,children:`GIS`}),` and complete the transcipt.`]}),`
 `,(0,n.jsx)(l,{words:`accessible; data; location; map; satellites; spatial`,children:(0,n.jsxs)(r.p,{children:[`Geographic information systems, or GIS, are essential tools used to capture, store, and analyze geographical `,(0,n.jsx)(u,{answer:`data`}),`.\r
@@ -67,4 +81,6 @@ GIS technology has evolved in recent years, making it more `,(0,n.jsx)(u,{answer
 `,(0,n.jsx)(r.hr,{}),`
 `,(0,n.jsx)(r.p,{children:`Attributions`}),`
 `,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.a,{href:`https://isprs-archives.copernicus.org/articles/XLVI-4-W5-2021/125/2021/isprs-archives-XLVI-4-W5-2021-125-2021.pdf`,children:`https://isprs-archives.copernicus.org/articles/XLVI-4-W5-2021/125/2021/isprs-archives-XLVI-4-W5-2021-125-2021.pdf`})}),`
-`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.a,{href:`https://www.youtube.com/watch?v=QlE2pdb1rxQ`,children:`What is GIS? Introduction to Geographic Information Systems`})})]})}function i(t={}){let{wrapper:i}={...e(),...t.components};return i?(0,n.jsx)(i,{...t,children:(0,n.jsx)(r,{...t})}):r(t)}function a(e,t){throw Error(`Expected `+(t?`component`:`object`)+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}export{i as default};
+`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.a,{href:`https://www.youtube.com/watch?v=QlE2pdb1rxQ`,children:`What is GIS? Introduction to Geographic Information Systems`})}),`
+`,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.a,{href:`https://www.oxfordlearnersdictionaries.com/`,children:`Oxford Learner’s Dictionaries`}),`; `,(0,n.jsx)(r.a,{href:`https://www.ldoceonline.com/`,children:`Longman Dictionary of Contemporary English`}),`; `,(0,n.jsx)(r.a,{href:`https://dictionary.cambridge.org/dictionary/english/`,children:`Cambridge Dictionary`}),`. Definitions have been paraphrased.`]}),`
+`,(0,n.jsxs)(r.p,{children:[`Images generated with `,(0,n.jsx)(r.a,{href:`https://www.bing.com/`,children:`Bing`}),`.`]})]})}function i(t={}){let{wrapper:i}={...e(),...t.components};return i?(0,n.jsx)(i,{...t,children:(0,n.jsx)(r,{...t})}):r(t)}function a(e,t){throw Error(`Expected `+(t?`component`:`object`)+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}export{i as default};
