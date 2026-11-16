@@ -71,15 +71,16 @@ export default function imagesPlugin() {
     },
 
     configureServer(server) {
+      const refresh = file => {
+        if (!IMAGE_EXTS.has(extname(file).toLowerCase())) return;
+        sizesMap = null;
+        widths.delete(file);
+        const mod = server.moduleGraph.getModuleById(RESOLVED_ID);
+        if (mod) server.moduleGraph.invalidateModule(mod);
+      };
+
       server.watcher.add(srcDir);
-      server.watcher.on("add", file => {
-        if (IMAGE_EXTS.has(extname(file).toLowerCase())) {
-          sizesMap = null;
-          widths.delete(file);
-          const mod = server.moduleGraph.getModuleById(RESOLVED_ID);
-          if (mod) server.moduleGraph.invalidateModule(mod);
-        }
-      });
+      server.watcher.on("add", refresh).on("change", refresh).on("unlink", refresh);
     },
   };
 }

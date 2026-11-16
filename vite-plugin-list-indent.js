@@ -8,7 +8,7 @@ function width(indent) {
 }
 
 export function normalize(code) {
-  let frontmatter = code.startsWith("---\n");
+  let frontmatter = /^---\r?\n/.test(code);
   let fence = null;
   let stack = [];
 
