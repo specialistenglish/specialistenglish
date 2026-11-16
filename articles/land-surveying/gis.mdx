@@ -8,9 +8,21 @@ order: 5
 
 # GIS
 
-1. What are some common uses of GIS in everyday life?
-2. How have you used GIS in your studies?
-3. How could GIS be used in your future workplace or profession?
+<ChoiceSet>
+
+<Choices single>
+
+<Choice>A. Global Information System</Choice>
+
+<Choice>B. Geographical Integrated Services</Choice>
+
+<Choice correct>C. Geographic Information System</Choice>
+
+<Choice>D. Global Information Services</Choice>
+
+</Choices>
+
+</ChoiceSet>
 
 ---
 
@@ -59,7 +71,8 @@ choropleth map   •   digitisation   •   feature class   •   geodatabase   
 
 ---
 Complete each sentence with the correct word from the word bank. Two words will not be needed.
- buffer   •   gazetteer   •   hillshade   •   interoperability   •   least-cost path   •   legend   •   network analysis   •   projection   •   scale   •   topology
+
+buffer   •   gazetteer   •   hillshade   •   interoperability   •   least-cost path   •   legend   •   network analysis   •   projection   •   scale   •   topology
 
 <FillIn>
 1.A map <Blank answer="legend;key"/> explains the symbols, colours and patterns used to represent features.
@@ -74,9 +87,9 @@ Complete each sentence with the correct word from the word bank. Two words will 
 
 ---
 
-Complete the gaps with the correct words. Two words will not be needed.
+Complete the gaps with the correct words. Three words will not be needed.
 
-<DragAndDrop words=" attribute;buffer;choropleth map;coordinate system;Digital Elevation Models;geocoding;georeferenced;network analysis;overlay;remote sensing;topology;vector">
+<DragAndDrop words=" attribute;buffer;cartogram;choropleth map;coordinate system;Digital Elevation Models;Digital Terrain Model;geocoding;georeferenced;network analysis;overlay;remote sensing;vector">
 
 Local authorities increasingly rely on GIS to manage flood risk in urban areas. Aerial and satellite imagery obtained through (1) <DropZone answer="remote sensing"/> is processed to create high-resolution elevation models, known as (2) <DropZone answer="Digital Elevation Models"/>, which reveal how water is likely to flow across the landscape. These raster surfaces are then combined with (3) <DropZone answer="vector"/> data such as roads, buildings and drainage networks through an (4) <DropZone answer="overlay"/> operation, allowing planners to see exactly where infrastructure intersects with flood-prone zones. A (5) <DropZone answer="buffer"/> of a set distance is often generated around rivers to define restricted development areas, while (6) <DropZone answer="network analysis"/> enables engineers to plan the fastest evacuation routes through the road network. Before any of this analysis can begin, however, raw survey data usually has to be (7) <DropZone answer="georeferenced"/> so that it aligns correctly with a national (8) <DropZone answer="coordinate system"/>, and its (9) <DropZone answer="attribute"/> table must be checked for accuracy. Finally, the results are displayed as a (10) <DropZone answer="choropleth map"/>, in which each administrative zone is shaded according to its level of flood risk, making the information immediately accessible to non-specialists.
 
@@ -108,20 +121,122 @@ Having read the text, choose the best answer.
 
 <ChoiceSet>
 
-According to the article, what is the real challenge cities face regarding data today?
+1. According to the article, what is the real challenge cities face regarding data today?
 <Choices single> <Choice>A. Collecting enough data from sensors and smartphones</Choice> <Choice correct>B. Making sense of the overwhelming flood of data</Choice> <Choice>C. Convincing citizens to share their data</Choice> <Choice>D. Storing data securely for long periods</Choice> </Choices>
-Why is GIS especially valuable for analysing urban data?
+
+2. Why is GIS especially valuable for analysing urban data?
 <Choices single> <Choice>A. It is cheaper to run than other data systems</Choice> <Choice>B. It works without an internet connection</Choice> <Choice correct>C. Most urban data is spatial, so it can be placed on a map for geographic analysis</Choice> <Choice>D. It automatically cleans messy datasets</Choice> </Choices>
-Which technique does the article mention for compressing many variables into a smaller number of meaningful ones?
+
+3. Which technique does the article mention for compressing many variables into a smaller number of meaningful ones?
 <Choices single> <Choice>A. Dense pixel displays</Choice> <Choice>B. Chernoff faces</Choice> <Choice>C. Parallel coordinates</Choice> <Choice correct>D. Principal component analysis</Choice> </Choices>
-What do "linking and brushing" allow an analyst to do?
+
+4. What do "linking and brushing" allow an analyst to do?
 <Choices single> <Choice correct>A. Highlight a cluster in one chart and see it marked automatically in another</Choice> <Choice>B. Zoom seamlessly from a city-wide view to street level</Choice> <Choice>C. Merge a NoSQL database with a spatial database</Choice> <Choice>D. Encode variables as facial expressions</Choice> </Choices>
-In the Istanbul air quality and traffic dashboard example, which chart type is used to summarise the spread of speeds and vehicle numbers?
+
+5. In the Istanbul air quality and traffic dashboard example, which chart type is used to summarise the spread of speeds and vehicle numbers?
 <Choices single> <Choice>A. Sunburst chart</Choice> <Choice>B. Treemap</Choice> <Choice correct>C. Box plots</Choice> <Choice>D. Pie chart</Choice> </Choices>
-According to the article, what is described as an essential but unglamorous first step before mapping or charting dashboard data?
+
+6. According to the article, what is described as an essential but unglamorous first step before mapping or charting dashboard data?
 <Choices single> <Choice>A. Choosing an appropriate satellite basemap</Choice> <Choice>B. Setting up a relational database extension</Choice> <Choice>C. Hiring additional data analysts</Choice> <Choice correct>D. Careful data cleaning</Choice> </Choices>
 
 </ChoiceSet>
+
+---
+
+<DragAndDrop words="longitude;geostatistics;X-Y map;brushing;database;readings;extension;imagery;portal">
+
+1. Latitude and <DropZone answer="longitude"/>
+
+2. Perform geographic analysis and <DropZone answer="geostatistics"/>
+
+3. Plotting it on an <DropZone answer="X-Y map"/>
+
+4. Linking and <DropZone answer="brushing"/>
+
+5. NoSQL <DropZone answer="database"/>
+
+6. Sensor <DropZone answer="readings"/>
+
+7. Spatially-aware database <DropZone answer="extension"/>
+
+8. Satellite basemap <DropZone answer="imagery"/>
+
+9. Open municipal data <DropZone answer="portal"/>
+
+</DragAndDrop>
+
+---
+
+Match the terms in bold with their correct definitions.
+
+Terms:
+
+Geographic analysis and geostatistics; Latitude and longitude; Plotting it on an X-Y map; Multidimensional territory; Scatterplot matrices; Parallel coordinates; Nodes and edges; City-wide overview and street-level detail; Drill-down distortion techniques; Linking and brushing; Converge on; Dashboard; Urban data visualization; Dashboard built; Sprawling metropolis; Open municipal data portal; NoSQL database; Sensor readings; Spatially-aware database extension; Satellite basemap imagery
+
+Definitions:
+
+A visual interface that brings together important data, charts and indicators in one place. <DropZone answer="Dashboard"/>
+The process of representing urban information visually to make it easier to understand. <DropZone answer="Urban data visualization"/>
+A large, widely spread city with a vast urban area. <DropZone answer="Sprawling metropolis"/>
+An online platform where a local government publishes data for public access. <DropZone answer="Open municipal data portal"/>
+A database designed to store and manage large volumes of data without relying exclusively on traditional relational tables. <DropZone answer="NoSQL database"/>
+Measurements collected by monitoring devices, such as air-quality or traffic sensors. <DropZone answer="Sensor readings"/>
+A database extension that supports geographic objects and spatial queries. <DropZone answer="Spatially-aware database extension"/>
+Images of the Earth's surface used as a background layer on a map. <DropZone answer="Satellite basemap imagery"/>
+The study and statistical analysis of geographic patterns and spatial relationships. <DropZone answer="Geographic analysis and geostatistics"/>
+The geographic coordinate system used to specify locations on the Earth's surface. <DropZone answer="Latitude and longitude"/>
+Representing geographic data using horizontal and vertical coordinates on a map. <DropZone answer="Plotting it on an X-Y map"/>
+A dataset containing several variables or dimensions that must be analysed together. <DropZone answer="Multidimensional territory"/>
+Visualizations that display multiple pairwise scatterplots to reveal relationships among variables. <DropZone answer="Scatterplot matrices"/>
+A visualization technique that represents multiple variables as parallel axes, with each data point shown as a line. <DropZone answer="Parallel coordinates"/>
+The basic components of a graph, representing entities and the connections between them. <DropZone answer="Nodes and edges"/>
+The ability to switch between an overall view of a city and detailed information about individual streets. <DropZone answer="City-wide overview and street-level detail"/>
+Techniques that allow users to explore a specific subset of data while retaining the surrounding context. <DropZone answer="Drill-down distortion techniques"/>
+An interactive technique in which selecting or highlighting data in one visualization highlights corresponding data in another. <DropZone answer="Linking and brushing"/>
+To come together or combine into a single result or outcome. <DropZone answer="Converge on"/>
+A visual monitoring tool designed around a particular topic or purpose. <DropZone answer="Dashboard built"/>
+
+---
+
+<DragAndDrop words="latitude and longitude;dashboard;GIS;open municipal data portal;NoSQL database;sensor readings;satellite basemap imagery;scatterplot matrices;nodes and edges;linking and brushing">
+
+1. <DropZone answer="latitude and longitude"/> are used to identify the precise geographic position of a location on Earth.
+
+2. A <DropZone answer="dashboard"/> helps city officials monitor traffic, pollution and other urban indicators in one place.
+
+3. <DropZone answer="GIS"/> allows analysts to display geographic information on maps and perform spatial analysis.
+
+4. An <DropZone answer="open municipal data portal"/> provides access to information published by local government authorities.
+
+5. A <DropZone answer="NoSQL database"/> can store large amounts of data generated by smart-city sensors.
+
+6. <DropZone answer="sensor readings"/> provide the measurements collected by monitoring devices throughout a city.
+
+7. <DropZone answer="satellite basemap imagery"/> can be used as a background layer to show the exact locations of monitoring stations.
+
+8. <DropZone answer="scatterplot matrices"/> help analysts identify relationships between pairs of variables in complex datasets.
+
+9. In graph visualization, <DropZone answer="nodes and edges"/> represent entities and the connections between them.
+
+10. <DropZone answer="linking and brushing"/> allows a user to highlight data in one chart and see the corresponding data highlighted in another chart.
+
+</DragAndDrop>
+
+<DragAndDrop words="Box plot;Heatmap;Time-series chart;Sunburst chart;Treemap;Pie chart">
+
+1. <DropZone answer="Box plot"/> shows the distribution and spread of values, including the median and potential outliers.
+
+2. <DropZone answer="Heatmap"/> uses coloured areas to identify high and low values across locations or categories.
+
+3. <DropZone answer="Time-series chart"/> shows how a variable changes over time.
+
+4. <DropZone answer="Sunburst chart"/> represents hierarchical data using nested rings.
+
+5. <DropZone answer="Treemap"/> compares categories using rectangular areas of different sizes.
+
+6. <DropZone answer="Pie chart"/> displays the proportions of different categories as slices of a circle.
+
+</DragAndDrop>
 
 ---
 
@@ -140,8 +255,26 @@ GIS technology has evolved in recent years, making it more <DropZone answer="acc
 
 ---
 
+*Optional Self-study Questions
+
+1. What are some common uses of GIS in everyday life?
+2. How have you used GIS in your studies?
+3. How could GIS be used in your future workplace or profession?
+
+1.How could GIS improve decision-making in your community?
+2.What role does GIS play in urban planning and development?
+3.How can GIS help resolve property subdivision disputes? 
+4.How can GIS support sustainable land use and environmental protection?
+
+---
+
 Attributions
 
+https://www.researchgate.net/publication/357288510_BIG_URBAN_DATA_VISUALIZATION_APPROACHES_WITHIN_THE_SMART_CITY_GIS-BASED_OPEN-SOURCE_DASHBOARD_EXAMPLE
 https://isprs-archives.copernicus.org/articles/XLVI-4-W5-2021/125/2021/isprs-archives-XLVI-4-W5-2021-125-2021.pdf 
 
 [What is GIS? Introduction to Geographic Information Systems](https://www.youtube.com/watch?v=QlE2pdb1rxQ)
+
+[Oxford Learner’s Dictionaries](https://www.oxfordlearnersdictionaries.com/); [Longman Dictionary of Contemporary English](https://www.ldoceonline.com/); [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/). Definitions have been paraphrased.
+
+Images generated with [Bing](https://www.bing.com/).

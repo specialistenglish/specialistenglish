@@ -22,5 +22,5 @@ export default defineConfig({
     }),
     react(),
   ],
-  base: '/sjourk/',
+  base: '/specialistenglish/',
 });

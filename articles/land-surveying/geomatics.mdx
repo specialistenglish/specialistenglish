@@ -3,7 +3,7 @@ title: Geomatics
 date: 2026-09-30
 image: articles/geomatics.jpg 
 blurb: The science and technology of collecting, storing, analysing, and presenting spatial and geographic data using surveying, GPS, remote sensing, and GIS techniques.
-order: 15
+order: 6
 ---
 
 # Geomatics
@@ -87,6 +87,80 @@ Match each verb with the noun phrase it most naturally collocates with.
 
 ---
 
+Mountains are restless places. A landslide can dump tons of debris straight into a riverbed, sometimes damming the flow entirely, while the river itself gnaws at the toe of a slope until the ground above gives way. This constant back-and-forth between mass-wasting processes and fluvial dynamics makes for a genuinely tangled puzzle, one that mixes multi-sized sediment transport, shifting channel morphology, and slow or sudden ground deformation into a single, moving picture. Making sense of it demands more than a single glance from a single instrument; it calls for an integrated surveying approach that stitches together remote sensing, proximal sensing, and decades of historical records. 
+
+The trouble is that every method speaks its own dialect of data. Some produce rasters, others vectors, others dense 3D point clouds or lonely strings of point coordinates and velocities, and all of it needs to be tied to a common reference system with a clearly stated accuracy before it becomes genuinely comparable. Numerous digital catalogues and geodatabases already exist, built on Geographic Information System technology to archive cartography, aerial photogrammetry, and records of past geo-hydrological events, yet they tend to be fragmented, built around one hazard type, boxed in by administrative borders, and largely silent on the fine-grained metadata a geomatics survey actually produces, things like positional accuracy or the sensor behind a given dataset. 
+
+Investigating channel systems has become a genuinely popular pursuit, partly because understanding how riverbeds evolve, how sediment supply and runoff reshape bed material, hydraulic forces, and even river islands, feeds directly into flood-risk assessment and sustainable river management. Researchers now lean on orthophotos, digital elevation models, and land-cover mapping to trace how geology, topography, and human intervention along a slope can ripple downstream and unbalance a riverbed, while structures such as dams and weirs attempt to restore that equilibrium. 
+
+On the technical side, satellite radar interferometry, GNSS surveying, uncrewed aerial vehicle photogrammetry, and terrestrial laser scanning are typically paired with geotechnical instrumentation, inclinometers tracking subsurface displacement, extensometers measuring strain along a borehole, and piezometers monitoring pore-water pressure, a parameter that is often decisive in landslide behaviour. Differential interferometry exploits successive satellite passes to build displacement maps with millimetre precision and, through Persistent Scatterer processing, can even generate long time series of ground movement, though dense vegetation, rapid slope failure, or unfavourable satellite geometry can all blur the signal. GNSS, meanwhile, anchors everything to a global reference frame and can deliver centimetre or, with static relative positioning, near-millimetre accuracy, provided the sky above the receiver stays unobstructed. 
+
+Uncrewed aerial vehicles have become something of a workhorse in this field: Structure from Motion photogrammetry turns their imagery into photorealistic, metrically accurate 3D reconstructions, so long as ground control points are well distributed and image overlap is generous, while UAV-mounted LiDAR pushes further still, piercing vegetation canopies to map terrain that photogrammetry alone would miss. Terrestrial laser scanning delivers similarly dense, richly detailed point clouds from a fixed vantage point, ideal wherever the terrain is stable enough to set up a tripod, though it struggles with vegetation and occlusion. Arrays of fixed cameras offer a cheaper, unattended alternative for raising monitoring frequency, and old-fashioned total stations still earn their keep wherever long-term stability checks and clear sightlines are possible. 
+
+None of these techniques triumphs alone, though; each has its blind spot, so weaving them together within a shared GIS environment is really the only way to keep uncertainty in check and build a coherent multi-temporal picture. That realisation points toward a smarter kind of geodatabase, one built around four interlocking components: on-field data, archive data, and two connective tables handling resource location and resource information. Archive material, from landslide inventories to benchmark monographs and administrative notes on maintenance works, links through geographic location to freshly collected on-field measurements, while the resources table keeps track of format, position, and survey epoch for everything stored. Such a structure would let a user query the whole system by coordinates, site name, date, or data type, and, crucially, would preserve the fine print, the ground sampling distance, the GNSS methodology, the accuracy of every ground control point, on which any honest multi-temporal comparison ultimately depends. 
+
+Pulled together this way, historical records and freshly surveyed geomatics data stop being isolated fragments and start forming a genuinely shared resource, one flexible enough to absorb new tables and new technologies as they emerge, and solid enough to support real quantitative insight into how slopes and rivers keep shaping each other over time.
+
+---
+
+1. According to the text, what is the main shortcoming of many existing digital catalogues and geodatabases?
+<Choices single>
+<Choice>A. They are built on outdated GIS technology that cannot store aerial photogrammetry.</Choice>
+<Choice correct>B. They tend to be fragmented and focused on a single hazard, and they rarely record detailed survey metadata.</Choice>
+<Choice>C. They concentrate on fine-grained metadata at the expense of historical records.</Choice>
+<Choice>D. They cover such large areas that local geo-hydrological events are overlooked.</Choice>
+</Choices>
+
+2. Which limitation of differential satellite radar interferometry does the author point out?
+<Choices single>
+<Choice>A. It can only measure displacement with centimetre precision.</Choice>
+<Choice>B. It needs an unobstructed sky above a ground-based receiver.</Choice>
+<Choice correct>C. Its results may be compromised by dense vegetation, rapid slope failure, or unfavourable satellite geometry.</Choice>
+<Choice>D. It cannot produce time series of ground movement over long periods.</Choice>
+</Choices>
+
+3. What advantage does UAV-mounted LiDAR have over Structure from Motion photogrammetry, according to the text?
+<Choices single>
+<Choice>A. It removes the need for well-distributed ground control points.</Choice>
+<Choice>B. It produces more photorealistic 3D reconstructions.</Choice>
+<Choice>C. It is cheaper and can operate unattended for long periods.</Choice>
+<Choice correct>D. It can penetrate vegetation canopies to capture the underlying terrain.</Choice>
+</Choices>
+
+4. What conclusion does the author draw about the various surveying techniques described?
+<Choices single>
+<Choice correct>A. Each technique has its own weaknesses, so combining them in a shared GIS environment is essential to limit uncertainty.</Choice>
+<Choice>B. Terrestrial laser scanning is the most reliable technique and should serve as the reference for all others.</Choice>
+<Choice>C. Traditional methods such as total stations have become largely obsolete.</Choice>
+<Choice>D. Remote sensing should gradually replace geotechnical instrumentation.</Choice>
+</Choices>
+
+5. Why does the author stress the importance of preserving details such as ground sampling distance and the accuracy of ground control points?
+<Choices single>
+<Choice>A. They are needed to convert raster data into vector format.</Choice>
+<Choice>B. They allow users to search the geodatabase by site name.</Choice>
+<Choice correct>C. Reliable comparison of data collected at different times depends on them.</Choice>
+<Choice>D. Administrative regulations require them for maintenance records.</Choice>
+</Choices>
+
+---
+
+Complete the gaps in the passages.
+
+<DragAndDrop words="cryosphere;GIS;surveying;Landsat;geographic information;petabyte;navigation;global navigation satellite systems;lithosphere;Geomatics;cloud;spatial decision-making;biosphere;remote sensing;geographic data;hydrosphere;Earth-observing satellites;geospatial analysis">
+
+Geomatics is a large and growing field that encompasses the art, science and technology of measuring attributes about Earth’s systems. From the earliest observations of Earth’s shape in ancient Greece to the space and information age, humans have wondered about their place on this planet. Nearly every aspect of our modern geographic lives can be attributed to advances in the field of geomatics. Today, location is real-time and precise, made easy by millennia of observations and incremental advances in technology that have culminated in a wondrous field of study.
+
+<DropZone answer="Geomatics"/> is the science and technology of collecting <DropZone answer="geographic data"/> and converting it to <DropZone answer="geographic information"/> for use in a wide variety of industries. As a technical field, it encompasses many different work processes including <DropZone answer="surveying"/>, <DropZone answer="remote sensing"/>, <DropZone answer="global navigation satellite systems"/>, <DropZone answer="geospatial analysis"/>, and information technology and systems management. In turn, these processes support a wide variety of <DropZone answer="spatial decision-making"/> such as urban planning, ecological conservation, forest management, real-time planetary systems monitoring, and rapid response to natural disasters. Many more emerging technologies such as self-driving vehicles, ride-sharing apps, and augmented reality video games depend directly on the science and technology of geomatics.
+
+Today, there are a variety of advancements in technology and information that have changed how geomatics allows us to address environmental management issues. A rapid revolution of remote sensing has occurred since the early days of the <DropZone answer="Landsat"/> program. Today, there are over 150 <DropZone answer="Earth-observing satellites"/> orbiting above our heads and constantly collecting data about Earth’s atmosphere, <DropZone answer="biosphere"/>, <DropZone answer="lithosphere"/>, <DropZone answer="hydrosphere"/>, and <DropZone answer="cryosphere"/>. The Landsat program alone has generated over 10 million images over the last 40 years. The amount of data produced from all Earth-observing satellites has increased from 1 PB (<DropZone answer="petabyte"/> or 1,024 terabytes) over the last 15 years to 1 PB produced every single day. The increase in data availability is made possible by miniaturization of computers, processors, and electronic storage as well as near real-time processing of data in the <DropZone answer="cloud"/> through networks of computers connected by the internet. Today, there are now commercialization and globalization imperatives for <DropZone answer="GIS"/>. The cooperation of dozens of nations around the world have lead to successful space and Earth-observing programs and now even space itself is commercializing with satellite missions launched by private corporations. In fact, geomatics is now a field extending beyond Earth with significant applications on Mars and our other planetary neighbours.
+
+Demand for and use of geographic information has never been higher in human history. With the advent of mobile phones, we consume and produce geographic data on a daily basis for <DropZone answer="navigation"/>, working out, gaming, finding new restaurants, and meeting our friends. Many of the original technologies developed with environmental imperatives are today used in some of our favourite mobile applications.
+
+</DragAndDrop>
+
+---
+
 Watch the video about [Geomatics](https://www.youtube.com/watch?v=1qLs0ndXdeE)
 
 1. Geomatics engineering combines elements of civil engineering, surveying, geography, and computer science.
@@ -130,59 +204,15 @@ Watch the video about [Geomatics](https://www.youtube.com/watch?v=1qLs0ndXdeE)
 </ChoiceSet>
 
 ---
+
+
+---
 Attributions
 
 
-https://www.opengeomatics.ca/what-is-geomatics.html
+The gapped text is a derivative of https://www.opengeomatics.ca/what-is-geomatics.html. Licensed under CC BY-SA 4.0.
 
 https://www.youtube.com/watch?v=1qLs0ndXdeE
 
-1. According to the video, what is the main focus of geomatics engineering?
-<Choices single>
-<Choice>A. Designing buildings and bridges for urban areas</Choice>
-<Choice correct>B. Acquiring, managing, analysing and interpreting spatial data</Choice>
-<Choice>C. Developing software for computer science applications</Choice>
-<Choice>D. Studying the geological composition of the Earth's crust</Choice>
-</Choices>
-
-2. Which of the following disciplines is NOT mentioned as contributing to geomatics engineering?
-<Choices single>
-<Choice>A. Civil engineering</Choice>
-<Choice>B. Surveying</Choice>
-<Choice correct>C. Mechanical engineering</Choice>
-<Choice>D. Computer science</Choice>
-</Choices>
-
-3. What do geomatics engineers produce using technologies such as GIS, GPS, remote sensing and LiDAR?
-<Choices single>
-<Choice correct>A. Maps, 3D models and other visualisations of the Earth's surface</Choice>
-<Choice>B. Satellite hardware and navigation devices</Choice>
-<Choice>C. Legal documents regarding land ownership disputes</Choice>
-<Choice>D. Architectural blueprints for residential housing</Choice>
-</Choices>
-
-4. How does the video describe the role of geomatics engineers in disaster management?
-<Choices single>
-<Choice>A. They are responsible for rescuing people during natural disasters.</Choice>
-<Choice>B. They predict exactly when earthquakes and hurricanes will occur.</Choice>
-<Choice>C. They rebuild damaged infrastructure after floods.</Choice>
-<Choice correct>D. They map and monitor disasters to help with evacuation planning, damage assessment and recovery.</Choice>
-</Choices>
-
-5. In which way does geomatics engineering support industries such as forestry, mining and agriculture?
-<Choices single>
-<Choice>A. By replacing manual labour with automated machinery</Choice>
-<Choice correct>B. By using remote sensing to monitor land use, vegetation growth and other influencing factors</Choice>
-<Choice>C. By negotiating contracts between resource companies and governments</Choice>
-<Choice>D. By testing soil samples in laboratories to improve crop yields</Choice>
-</Choices>
-
-6. Which of the following research topics is mentioned in the video as part of the academic side of geomatics engineering?
-<Choices single>
-<Choice>A. The economic impact of urbanisation on developing countries</Choice>
-<Choice>B. The chemical analysis of pollutants in the atmosphere</Choice>
-<Choice correct>C. The development of new surveying techniques and the integration of GIS with other technologies</Choice>
-<Choice>D. The psychological effects of natural disasters on local communities</Choice>
-</Choices>
 
 https://www.youtube.com/watch?v=e87wDI4W2_g

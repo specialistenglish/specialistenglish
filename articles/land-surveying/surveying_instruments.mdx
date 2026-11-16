@@ -73,22 +73,95 @@ Match the surveying instruments to the pictograms below.
 4. <Blank answer="GNSS/GPS receiver"/>
 
 5. <Blank answer="dumpy level"/>
-<Blank answer="ranging rods"/>
-<Blank answer="compass"/>
-<Blank answer="field book"/>
-<Blank answer="laser level"/>
-<Blank answer="prismatic compass"/>
-<Blank answer="tripod"/>
-<Blank answer="levelling staff"/>
-<Blank answer="auto level"/>
-<Blank answer="EDM (Electronic Distance Meter)"/>
-<Blank answer="plane table"/>
-<Blank answer="surveying prism"/>
-<Blank answer="digital level"/>
-<Blank answer="measuring tape"/>
-<Blank answer="theodolite"/>
-<Blank answer="planimeter"/>
+
+6. <Blank answer="ranging rods"/>
+
+7. <Blank answer="compass"/>
+
+8. Blank answer="field book"/>
+
+9. <Blank answer="laser level"/>
+
+10. <Blank answer="prismatic compass"/>
+
+11. <Blank answer="tripod"/>
+
+12. <Blank answer="levelling staff"/>
+
+13. <Blank answer="auto level"/>
+
+14. <Blank answer="EDM (Electronic Distance Meter)"/>
+
+15. <Blank answer="plane table"/>
+
+16. <Blank answer="surveying prism"/>
+
+17. Blank answer="digital level"/>
+
+18. <Blank answer="measuring tape"/>
+
+19. <Blank answer="theodolite"/>
+
+20. <Blank answer="planimeter"/>
 </FillIn>
+
+---
+
+Read the text and fill in the gaps with the sentence parts:
+
+A. so every patch of ground appears in many frames
+
+B. because some pulses slip through gaps in the foliage
+
+C. whose toolkit has changed more in the last decade than in the previous century
+
+D. and a focal median filter fills the tiny seams between them
+
+E. delivers centimetre-level positions almost instantly
+
+F. while independent check points (ICPs) are kept aside purely to test accuracy
+
+<FillIn>
+
+Eyes in the Sky, Feet on the Ground: How Modern Surveyors Map the Land
+
+Every building begins long before the first shovel hits the soil. Before architects sketch façades, someone must discover exactly what the land looks like: where it rises, where it dips and how tall the neighbours' roofs are. That someone is the surveyor, <Blank answer="C"/>.
+
+For generations, surveying relied on instruments planted firmly on the ground. The total station, a tripod-mounted device that pairs an electronic theodolite for measuring angles with a distance meter, can pinpoint coordinates to within millimetres. Beside it, a GNSS receiver listens to satellite signals and, when operating in Real-Time Kinematic (RTK) mode with corrections from a nearby base station, <Blank answer="E"/>. The humble level still checks height differences, while the terrestrial laser scanner sweeps its surroundings from a fixed station. Such precision comes at a price, however: walking a site point by point is slow and labour-intensive, and it leaves wide gaps in coverage, especially on rough or overgrown terrain.
+
+Enter the unmanned aerial vehicle (UAV), better known as the drone. Following a pre-programmed flight route, a professional mapping platform such as the DJI Matrice 300 RTK can cover an entire plot in minutes. Its value, however, depends entirely on the payload it carries.
+
+The first popular payload is the photogrammetric camera. It is mounted on a three-axis stabilised gimbal that cancels out wind and vibration. A high-resolution sensor like the 45-megapixel Zenmuse P1 captures hundreds of images with generous forward and side overlap, <Blank answer="A"/>. Flying lower sharpens the ground sample distance (GSD), the real-world size of one pixel, which can shrink below a centimetre. Back in the office, Structure from Motion (SfM) software detects matching features across photographs and triangulates them into a sparse point cloud. This cloud is later densified, meshed and textured before emerging as an orthophoto, a geometrically corrected aerial image, and as a digital surface model (DSM).
+
+A floating 3D model is useless, of course, until it is anchored to real coordinates. In indirect georeferencing, surveyors lay out ground control points (GCPs), often black-and-white vinyl tiles whose centres are measured by GNSS. At least three of them allow a seven-parameter similarity transformation to link the model to a global coordinate system, <Blank answer="F"/>. Direct georeferencing instead relies on onboard RTK or Post-Processed Kinematic (PPK) positioning to record where the camera was at every shot, which saves considerable fieldwork.
+
+Photogrammetry has an Achilles' heel, though: it sees only the topmost surface. Over asphalt or rooftops it shines, but beneath a tree canopy the soil stays invisible, and shadows or poor texture quickly erode its accuracy.
+
+This is where LiDAR (Light Detection and Ranging) earns its reputation. The scanner fires laser pulses and measures their time of flight, the moment each one takes to bounce back. <Blank answer="B"/>, a single shot can produce multiple returns: the first from a leaf, the last from the ground. A multi-channel scanner rotating through a 360-degree field of view generates over a million points per second, day or night. An inertial measurement unit (IMU) tracks the aircraft's orientation while GNSS logs its position. The resulting trajectory is refined in post-processing, where strip adjustment aligns overlapping flight lines. Classification algorithms then strip away the vegetation, leaving a bare-earth digital terrain model (DTM). LiDAR is not flawless, however: it remains expensive, it struggles in fog or rain, and reflective glass confuses it. It is also slightly less precise than a camera on hard, man-made surfaces.
+
+So why choose between them? The Digital Feature Model (DFM) lets each sensor play to its strengths. It is a type of digital elevation model (DEM) that preserves both the natural terrain and anthropic structures. The site is first segmented into zones. Vegetated ground then receives the LiDAR DTM, while roofs and pavements take the photogrammetric DSM. Inside a GIS, an "Extract by Mask" tool cuts out each zone, a mosaic operation stitches the pieces together, <Blank answer="D"/>. When such a hybrid is measured against field data using the root mean square error (RMSE), it typically beats either sensor on its own.
+
+The payoff is considerable. Surveyors can draw cadastral boundaries on the orthophoto with confidence, and the model yields the true heights of neighbouring buildings for CAD topographic plans complete with contour lines. GIS analysis goes even further. Slope maps reveal how gently the plot inclines, and aspect maps show which way it faces. Solar radiation maps help architects angle a roof to catch the sun.
+
+</FillIn>
+
+---
+
+Complete the sentences with the terms which appear in the text.
+
+<DragAndDrop words="inertial measurement unit;Post-Processed Kinematic;stabilised gimbal;total station;Digital Feature Model;tripod-mounted;ground sample distance;electronic theodolite;unmanned aerial vehicle;Real-Time Kinematic">
+
+Unlike a handheld device, the <DropZone answer="tripod-mounted"/> scanner remained perfectly still throughout the session, which was essential for capturing a dense and consistent scan of the building's façade.
+Thanks to a stable radio link with the base station, the GNSS rover operating in <DropZone answer="Real-Time Kinematic"/> mode displayed centimetre-level coordinates on the controller within seconds.
+Since the drone repeatedly lost contact with the base station during the flight, the team opted for a <DropZone answer="Post-Processed Kinematic"/> workflow, correcting the camera positions in the office once the raw satellite logs had been downloaded.
+Doubling the flying height roughly doubles the <DropZone answer="ground sample distance"/>, which means that fine details such as kerb edges or small cracks may no longer be distinguishable in the images.
+While the satellite receiver tells the LiDAR system where the aircraft is, the <DropZone answer="inertial measurement unit"/> records its roll, pitch and heading hundreds of times per second.
+By combining the LiDAR terrain model beneath the trees with the photogrammetric surface model of the rooftops, the engineers produced a <DropZone answer="Digital Feature Model"/> that represented both the natural ground and the man-made structures with high accuracy.
+Local aviation regulations require the operator of every <DropZone answer="unmanned aerial vehicle"/> to keep the aircraft within visual line of sight and below a specified altitude.
+Strong gusts of wind would certainly have produced blurred photographs had the camera not been fixed to a three-axis <DropZone answer="stabilised gimbal"/>.
+Combining angle and distance measurements in a single instrument, the <DropZone answer="total station"/> remains the surveyor's first choice for setting out building corners with millimetre accuracy.
+Before distance meters were integrated into one device, surveyors relied on the <DropZone answer="electronic theodolite"/> to measure horizontal and vertical angles, while distances had to be obtained separately.
+</DragAndDrop>
 
 ---
 
@@ -157,7 +230,43 @@ Watch the video [How does land surveying work?](https://www.youtube.com/watch?v=
 
 ---
 
+Complete the dialogues.
+
+<DragAndDrop words="angles;built;calculate;display;Electronic Distance Measurement;theodolite;total stations">
+Peter: Hey Betty, I was revising our surveying notes, but I'm still a bit confused — what's the real difference between a total station and a theodolite?
+Betty: That's a good question! Both instruments measure horizontal and vertical <DropZone answer="angles"/>, but a total station is basically an advanced version of a theodolite. It combines angle measurement, distance measurement, and data processing all in one.
+Peter: So, a <DropZone answer="theodolite"/> only measures angles?
+Betty: Exactly. A theodolite measures horizontal and vertical angles very precisely, but if you want distances, you have to use a separate instrument like a tape or EDM (<DropZone answer="Electronic Distance Measurement"/>) device.
+Peter: Right, whereas a total station already has EDM <DropZone answer="built"/> in, right?
+Betty: Yes! A total station can measure both angles and distances electronically. Plus, it can store data, <DropZone answer="calculate"/> coordinates, elevations, and even transfer the data to a computer directly.
+Peter: That sounds way more efficient. Does that mean the total station replaces the theodolite in modern surveying?
+Betty: In most cases, yes. Theodolites are still used for educational purposes or in small projects because they're cheaper and simpler, but for professional surveying, <DropZone answer="total stations"/> are preferred for accuracy, speed, and data management.
+Peter: Makes sense. So, to recap it: A theodolite measures angles only and handles manual data, whereas a total station measures angles plus distances, has digital <DropZone answer="display"/>, memory, and processing capabilities.
+Betty: Perfect summary! You've got it.
+</DragAndDrop>
+
+<DragAndDrop words="bar-coded;compensator;elevations;human error;levelling staff;line of sight;readings">
+Anna: Hi Tom, we have a levelling exercise tomorrow, and I'm not sure which instrument to take. What's the difference between an automatic level and a digital level?
+Tom: Good question! Both instruments are used to find differences in height, or <DropZone answer="elevations"/>, between points. They both create a horizontal <DropZone answer="line of sight"/> that you use to take measurements.
+Anna: So how does an automatic level work?
+Tom: You look through the telescope and read the numbers on a graduated <DropZone answer="levelling staff"/> yourself. Inside the instrument there's a <DropZone answer="compensator"/> that keeps the line of sight horizontal once the instrument is roughly levelled.
+Anna: And the digital level doesn't need you to read the numbers?
+Tom: That's right. A digital level uses a special <DropZone answer="bar-coded"/> staff. The instrument scans the code electronically and shows the height on its screen.
+Anna: That must reduce <DropZone answer="human error"/>, since nobody has to read or write down the numbers by hand.
+Tom: Exactly. It also stores all the <DropZone answer="readings"/> in its memory and can calculate height differences automatically, which saves a lot of time.
+Anna: So, to recap: an automatic level is simple, cheap and relies on manual reading, whereas a digital level reads a bar-coded staff electronically, stores data and processes it automatically.
+Tom: Spot on! You're ready for tomorrow.
+</DragAndDrop>
+
+---
+
 
 Attributions
 
+The text is a derivative of [Land surveying with UAV photogrammetry and LiDAR for optimal building planning](https://www.sciencedirect.com/science/article/pii/S0926580525001323). Paul Sestras, Gheorghe Badea, Ana Cornelia Badea, Tudor Salagean, Sanda Roșca, Shuraik Kader, Fabio Remondino. ScienceDirect, May 2025. Licensed under CC BY 4.0.
+
 [How does land surveying work?](https://www.youtube.com/watch?v=SPCewaAfqPA)
+
+[Oxford Learner’s Dictionaries](https://www.oxfordlearnersdictionaries.com/); [Longman Dictionary of Contemporary English](https://www.ldoceonline.com/); [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/). Definitions have been paraphrased.
+
+Images generated with [Bing](https://www.bing.com/).

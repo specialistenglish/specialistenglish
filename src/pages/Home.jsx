@@ -6,7 +6,7 @@ import Img from "../Components/Img";
 function Home() {
   useEffect(() => {
     setPageMeta({
-      title: "SJO URK",
+      title: "Specialist English",
       image: "media/ogimg.jpg",
       type: "website",
     });
@@ -16,8 +16,8 @@ function Home() {
     <div style={{ height: '5rem' }}></div>
     <Img src="media/sjo-logo-mono.svg" width="20" />
     <div style={{ height: '1rem' }}></div>
-    <h1>SJO URK</h1>
-    <p>Skrypty dla studentów</p>
+    <h1>Specialist English</h1>
+    <p>Academic and professional language for university students</p>
     <ArticleGrid />
   </main>;
 }
