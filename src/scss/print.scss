@@ -1,0 +1,85 @@
+@media print {
+  body {
+    background: none;
+  }
+
+  .skip-to-content,
+  .breadcrumbs,
+  .nav-right,
+  .button-list,
+  .article-grid,
+  .article-meta__pdf {
+    display: none;
+  }
+
+  .content {
+    margin: 0;
+    max-width: none;
+    padding: 0;
+    font-size: 11pt;
+
+    h1 {
+      font-size: 24pt;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      text-shadow: none;
+      break-after: avoid;
+    }
+  }
+
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+
+  .separator,
+  p:has(+ .DragAndDrop, + .FillIn, + .Choices, + .ChoiceSet, + .Categorize, + .Img) {
+    break-after: avoid;
+  }
+
+  .Img,
+  table,
+  .Choice,
+  .CategoryBucket {
+    break-inside: avoid;
+  }
+
+  .Img__image {
+    max-height: 120mm;
+  }
+
+  .Img--full-bleed {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    transform: none;
+  }
+
+  .DragAndDrop__words,
+  .Categorize__pool {
+    position: static;
+    break-inside: avoid;
+    break-after: avoid;
+  }
+
+  .WordChip {
+    box-shadow: none;
+    border: 1px solid var(--c-border-2);
+  }
+
+  .DropZone,
+  .Blank {
+    min-width: 6em;
+  }
+
+  .Blank {
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--c-text);
+    border-radius: 0;
+  }
+}

@@ -98,10 +98,6 @@ h4 {
     border-bottom: 1px solid var(--c-border);
   }
 
-  h1 + :not(.article-meta) {
-    margin-top: 1em;
-  }
-
   blockquote {
     margin-left: 0;
     margin-right: 0;
@@ -166,8 +162,8 @@ h4 {
     margin-bottom: 2rem;
     opacity: 0.8;
 
-    &__date {
-      margin-right: auto;
+    &__pdf {
+      margin-left: auto;
     }
   }
 }

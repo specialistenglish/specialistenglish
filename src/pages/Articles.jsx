@@ -78,9 +78,10 @@ export default function Article() {
           },
           h1: ({ children }) => <>
             <h1>{children}</h1>
-            {meta?.date && <div className="article-meta">
-              <span className="article-meta__date">{meta.date}</span>
-            </div>}
+            <div className="article-meta">
+              {meta?.date && <span className="article-meta__date">{meta.date}</span>}
+              <a className="article-meta__pdf" href={`${import.meta.env.BASE_URL}pdf/${safeSlug}.pdf`} download>download PDF</a>
+            </div>
           </>,
           hr: () => <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 308.27 11.47" className="separator">
             <polygon points="0.33,5.74 3.03,3.03 5.74,5.74 3.03,8.44" />

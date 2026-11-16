@@ -64,11 +64,13 @@ $sideBorder: clamp(0.6rem, 1.2dvw, 1.2rem);
   color-scheme: dark;
 }
 
-[data-theme="dark"] {
-  @include dark;
+@media screen {
+  [data-theme="dark"] {
+    @include dark;
+  }
 }
 
-@media (prefers-color-scheme: dark) {
+@media screen and (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     @include dark;
   }
