@@ -1,9 +1,5 @@
-import{i as e,r as t}from"./index-DE3l6Xkv.js";var n=t();function r(t){let r={a:`a`,h1:`h1`,hr:`hr`,li:`li`,ol:`ol`,p:`p`,...e(),...t.components},{Blank:i,Choice:o,ChoiceSet:s,Choices:c,DragAndDrop:l,DropZone:u,FillIn:d}=r;return i||a(`Blank`,!0),o||a(`Choice`,!0),s||a(`ChoiceSet`,!0),c||a(`Choices`,!0),l||a(`DragAndDrop`,!0),u||a(`DropZone`,!0),d||a(`FillIn`,!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h1,{id:`gis`,children:`GIS`}),`
-`,(0,n.jsxs)(r.ol,{children:[`
-`,(0,n.jsx)(r.li,{children:`What are some common uses of GIS in everyday life?`}),`
-`,(0,n.jsx)(r.li,{children:`How have you used GIS in your studies?`}),`
-`,(0,n.jsx)(r.li,{children:`How could GIS be used in your future workplace or profession?`}),`
-`]}),`
+import{i as e,r as t}from"./index-1iiLDQ9s.js";var n=t();function r(t){let r={a:`a`,h1:`h1`,hr:`hr`,li:`li`,ol:`ol`,p:`p`,...e(),...t.components},{Blank:i,Choice:o,ChoiceSet:s,Choices:c,DragAndDrop:l,DropZone:u,FillIn:d}=r;return i||a(`Blank`,!0),o||a(`Choice`,!0),s||a(`ChoiceSet`,!0),c||a(`Choices`,!0),l||a(`DragAndDrop`,!0),u||a(`DropZone`,!0),d||a(`FillIn`,!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h1,{id:`gis`,children:`GIS`}),`
+`,(0,n.jsx)(s,{children:(0,n.jsxs)(c,{single:!0,children:[(0,n.jsx)(o,{children:`A. Global Information System`}),(0,n.jsx)(o,{children:`B. Geographical Integrated Services`}),(0,n.jsx)(o,{correct:!0,children:`C. Geographic Information System`}),(0,n.jsx)(o,{children:`D. Global Information Services`})]})}),`
 `,(0,n.jsx)(r.hr,{}),`
 `,(0,n.jsx)(r.p,{children:`Match each term with its correct definition.`}),`
 `,(0,n.jsxs)(l,{words:`vector data;raster data;geocoding;buffer;overlay analysis;topology;georefrencing;attribute table;spatial resolution;digital elevation model`,children:[(0,n.jsxs)(r.p,{children:[`A.`,(0,n.jsx)(u,{answer:`digital elevation model`}),`A model representing the elevation of the terrain’s surface, usually stored as a raster.`]}),(0,n.jsxs)(r.p,{children:[`B.`,(0,n.jsx)(u,{answer:`topology`}),`The rules governing the spatial relationships between features, such as connectivity and adjacency.`]}),(0,n.jsxs)(r.p,{children:[`C.`,(0,n.jsx)(u,{answer:`geocoding`}),`The process of assigning geographic coordinates to addresses or place names.`]}),(0,n.jsxs)(r.p,{children:[`D.`,(0,n.jsx)(u,{answer:`attribute table`}),`A table containing descriptive, non-spatial information linked to spatial features.`]}),(0,n.jsxs)(r.p,{children:[`E.`,(0,n.jsx)(u,{answer:`vector data`}),`Data represented as points, lines and polygons, each defined by precise coordinate pairs.`]}),(0,n.jsxs)(r.p,{children:[`F.`,(0,n.jsx)(u,{answer:`buffer`}),`A zone of a specified width generated around a feature, often used for proximity analysis.`]}),(0,n.jsxs)(r.p,{children:[`G.`,(0,n.jsx)(u,{answer:`georefrencing`}),`The process of aligning spatial data to a real-world coordinate system using ground control points.`]}),(0,n.jsxs)(r.p,{children:[`H.`,(0,n.jsx)(u,{answer:`raster data`}),`A dataset composed of a grid of cells, each assigned a value, suited to representing continuous surfaces.`]}),(0,n.jsxs)(r.p,{children:[`I.`,(0,n.jsx)(u,{answer:`overlay analysis`}),`The technique of combining several data layers to identify where they coincide or overlap.`]}),(0,n.jsxs)(r.p,{children:[`J.`,(0,n.jsx)(u,{answer:`spatial resolution`}),`The size of the smallest feature that can be reliably detected or represented in a dataset.`]})]}),`
@@ -30,8 +26,8 @@ import{i as e,r as t}from"./index-DE3l6Xkv.js";var n=t();function r(t){let r={a:
 7.A `,(0,n.jsx)(i,{answer:`gazetteer`}),`is a directory of place names linked to their geographic coordinates, often used in geocoding.\r
 8.`,(0,n.jsx)(i,{answer:`Interoperability`}),` refers to the ability of different GIS systems and data formats to work together and exchange information seamlessly.`]})}),`
 `,(0,n.jsx)(r.hr,{}),`
-`,(0,n.jsx)(r.p,{children:`Complete the gaps with the correct words. Two words will not be needed.`}),`
-`,(0,n.jsx)(l,{words:` attribute;buffer;choropleth map;coordinate system;Digital Elevation Models;geocoding;georeferenced;network analysis;overlay;remote sensing;topology;vector`,children:(0,n.jsxs)(r.p,{children:[`Local authorities increasingly rely on GIS to manage flood risk in urban areas. Aerial and satellite imagery obtained through (1) `,(0,n.jsx)(u,{answer:`remote sensing`}),` is processed to create high-resolution elevation models, known as (2) `,(0,n.jsx)(u,{answer:`Digital Elevation Models`}),`, which reveal how water is likely to flow across the landscape. These raster surfaces are then combined with (3) `,(0,n.jsx)(u,{answer:`vector`}),` data such as roads, buildings and drainage networks through an (4) `,(0,n.jsx)(u,{answer:`overlay`}),` operation, allowing planners to see exactly where infrastructure intersects with flood-prone zones. A (5) `,(0,n.jsx)(u,{answer:`buffer`}),` of a set distance is often generated around rivers to define restricted development areas, while (6) `,(0,n.jsx)(u,{answer:`network analysis`}),` enables engineers to plan the fastest evacuation routes through the road network. Before any of this analysis can begin, however, raw survey data usually has to be (7) `,(0,n.jsx)(u,{answer:`georeferenced`}),` so that it aligns correctly with a national (8) `,(0,n.jsx)(u,{answer:`coordinate system`}),`, and its (9) `,(0,n.jsx)(u,{answer:`attribute`}),` table must be checked for accuracy. Finally, the results are displayed as a (10) `,(0,n.jsx)(u,{answer:`choropleth map`}),`, in which each administrative zone is shaded according to its level of flood risk, making the information immediately accessible to non-specialists.`]})}),`
+`,(0,n.jsx)(r.p,{children:`Complete the gaps with the correct words. Three words will not be needed.`}),`
+`,(0,n.jsx)(l,{words:` attribute;buffer;cartogram;choropleth map;coordinate system;Digital Elevation Models;Digital Terrain Model;geocoding;georeferenced;network analysis;overlay;remote sensing;vector`,children:(0,n.jsxs)(r.p,{children:[`Local authorities increasingly rely on GIS to manage flood risk in urban areas. Aerial and satellite imagery obtained through (1) `,(0,n.jsx)(u,{answer:`remote sensing`}),` is processed to create high-resolution elevation models, known as (2) `,(0,n.jsx)(u,{answer:`Digital Elevation Models`}),`, which reveal how water is likely to flow across the landscape. These raster surfaces are then combined with (3) `,(0,n.jsx)(u,{answer:`vector`}),` data such as roads, buildings and drainage networks through an (4) `,(0,n.jsx)(u,{answer:`overlay`}),` operation, allowing planners to see exactly where infrastructure intersects with flood-prone zones. A (5) `,(0,n.jsx)(u,{answer:`buffer`}),` of a set distance is often generated around rivers to define restricted development areas, while (6) `,(0,n.jsx)(u,{answer:`network analysis`}),` enables engineers to plan the fastest evacuation routes through the road network. Before any of this analysis can begin, however, raw survey data usually has to be (7) `,(0,n.jsx)(u,{answer:`georeferenced`}),` so that it aligns correctly with a national (8) `,(0,n.jsx)(u,{answer:`coordinate system`}),`, and its (9) `,(0,n.jsx)(u,{answer:`attribute`}),` table must be checked for accuracy. Finally, the results are displayed as a (10) `,(0,n.jsx)(u,{answer:`choropleth map`}),`, in which each administrative zone is shaded according to its level of flood risk, making the information immediately accessible to non-specialists.`]})}),`
 `,(0,n.jsx)(r.hr,{}),`
 `,(0,n.jsx)(r.p,{children:`Read the text and do the tasks below.`}),`
 `,(0,n.jsx)(r.p,{children:`Cities today drown in numbers. Every sensor, smartphone and traffic light quietly produces streams of data, and the smart city concept exists precisely to turn that flood into something a city planner can actually use. The real challenge is not collecting data — it’s making sense of the deluge, and that’s where visual analytics earns its keep, translating raw, chaotic figures into images the human eye can instantly grasp.`}),`
@@ -71,6 +67,114 @@ import{i as e,r as t}from"./index-DE3l6Xkv.js";var n=t();function r(t){let r={a:
 `]}),`
 `]})}),`
 `,(0,n.jsx)(r.hr,{}),`
+`,(0,n.jsx)(l,{words:`longitude;geostatistics;X-Y map;brushing;database;readings;extension;imagery;portal`,children:(0,n.jsxs)(r.ol,{children:[`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`Latitude and `,(0,n.jsx)(u,{answer:`longitude`})]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`Perform geographic analysis and `,(0,n.jsx)(u,{answer:`geostatistics`})]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`Plotting it on an `,(0,n.jsx)(u,{answer:`X-Y map`})]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`Linking and `,(0,n.jsx)(u,{answer:`brushing`})]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`NoSQL `,(0,n.jsx)(u,{answer:`database`})]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`Sensor `,(0,n.jsx)(u,{answer:`readings`})]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`Spatially-aware database `,(0,n.jsx)(u,{answer:`extension`})]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`Satellite basemap `,(0,n.jsx)(u,{answer:`imagery`})]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`Open municipal data `,(0,n.jsx)(u,{answer:`portal`})]}),`
+`]}),`
+`]})}),`
+`,(0,n.jsx)(r.hr,{}),`
+`,(0,n.jsx)(r.p,{children:`Match the terms in bold with their correct definitions.`}),`
+`,(0,n.jsx)(r.p,{children:`Terms:`}),`
+`,(0,n.jsx)(r.p,{children:`Geographic analysis and geostatistics; Latitude and longitude; Plotting it on an X-Y map; Multidimensional territory; Scatterplot matrices; Parallel coordinates; Nodes and edges; City-wide overview and street-level detail; Drill-down distortion techniques; Linking and brushing; Converge on; Dashboard; Urban data visualization; Dashboard built; Sprawling metropolis; Open municipal data portal; NoSQL database; Sensor readings; Spatially-aware database extension; Satellite basemap imagery`}),`
+`,(0,n.jsx)(r.p,{children:`Definitions:`}),`
+`,(0,n.jsxs)(r.p,{children:[`A visual interface that brings together important data, charts and indicators in one place. `,(0,n.jsx)(u,{answer:`Dashboard`}),`\r
+The process of representing urban information visually to make it easier to understand. `,(0,n.jsx)(u,{answer:`Urban data visualization`}),`\r
+A large, widely spread city with a vast urban area. `,(0,n.jsx)(u,{answer:`Sprawling metropolis`}),`\r
+An online platform where a local government publishes data for public access. `,(0,n.jsx)(u,{answer:`Open municipal data portal`}),`\r
+A database designed to store and manage large volumes of data without relying exclusively on traditional relational tables. `,(0,n.jsx)(u,{answer:`NoSQL database`}),`\r
+Measurements collected by monitoring devices, such as air-quality or traffic sensors. `,(0,n.jsx)(u,{answer:`Sensor readings`}),`\r
+A database extension that supports geographic objects and spatial queries. `,(0,n.jsx)(u,{answer:`Spatially-aware database extension`}),`\r
+Images of the Earth’s surface used as a background layer on a map. `,(0,n.jsx)(u,{answer:`Satellite basemap imagery`}),`\r
+The study and statistical analysis of geographic patterns and spatial relationships. `,(0,n.jsx)(u,{answer:`Geographic analysis and geostatistics`}),`\r
+The geographic coordinate system used to specify locations on the Earth’s surface. `,(0,n.jsx)(u,{answer:`Latitude and longitude`}),`\r
+Representing geographic data using horizontal and vertical coordinates on a map. `,(0,n.jsx)(u,{answer:`Plotting it on an X-Y map`}),`\r
+A dataset containing several variables or dimensions that must be analysed together. `,(0,n.jsx)(u,{answer:`Multidimensional territory`}),`\r
+Visualizations that display multiple pairwise scatterplots to reveal relationships among variables. `,(0,n.jsx)(u,{answer:`Scatterplot matrices`}),`\r
+A visualization technique that represents multiple variables as parallel axes, with each data point shown as a line. `,(0,n.jsx)(u,{answer:`Parallel coordinates`}),`\r
+The basic components of a graph, representing entities and the connections between them. `,(0,n.jsx)(u,{answer:`Nodes and edges`}),`\r
+The ability to switch between an overall view of a city and detailed information about individual streets. `,(0,n.jsx)(u,{answer:`City-wide overview and street-level detail`}),`\r
+Techniques that allow users to explore a specific subset of data while retaining the surrounding context. `,(0,n.jsx)(u,{answer:`Drill-down distortion techniques`}),`\r
+An interactive technique in which selecting or highlighting data in one visualization highlights corresponding data in another. `,(0,n.jsx)(u,{answer:`Linking and brushing`}),`\r
+To come together or combine into a single result or outcome. `,(0,n.jsx)(u,{answer:`Converge on`}),`\r
+A visual monitoring tool designed around a particular topic or purpose. `,(0,n.jsx)(u,{answer:`Dashboard built`})]}),`
+`,(0,n.jsx)(r.hr,{}),`
+`,(0,n.jsx)(l,{words:`latitude and longitude;dashboard;GIS;open municipal data portal;NoSQL database;sensor readings;satellite basemap imagery;scatterplot matrices;nodes and edges;linking and brushing`,children:(0,n.jsxs)(r.ol,{children:[`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(u,{answer:`latitude and longitude`}),` are used to identify the precise geographic position of a location on Earth.`]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`A `,(0,n.jsx)(u,{answer:`dashboard`}),` helps city officials monitor traffic, pollution and other urban indicators in one place.`]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(u,{answer:`GIS`}),` allows analysts to display geographic information on maps and perform spatial analysis.`]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`An `,(0,n.jsx)(u,{answer:`open municipal data portal`}),` provides access to information published by local government authorities.`]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`A `,(0,n.jsx)(u,{answer:`NoSQL database`}),` can store large amounts of data generated by smart-city sensors.`]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(u,{answer:`sensor readings`}),` provide the measurements collected by monitoring devices throughout a city.`]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(u,{answer:`satellite basemap imagery`}),` can be used as a background layer to show the exact locations of monitoring stations.`]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(u,{answer:`scatterplot matrices`}),` help analysts identify relationships between pairs of variables in complex datasets.`]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`In graph visualization, `,(0,n.jsx)(u,{answer:`nodes and edges`}),` represent entities and the connections between them.`]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(u,{answer:`linking and brushing`}),` allows a user to highlight data in one chart and see the corresponding data highlighted in another chart.`]}),`
+`]}),`
+`]})}),`
+`,(0,n.jsx)(l,{words:`Box plot;Heatmap;Time-series chart;Sunburst chart;Treemap;Pie chart`,children:(0,n.jsxs)(r.ol,{children:[`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(u,{answer:`Box plot`}),` shows the distribution and spread of values, including the median and potential outliers.`]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(u,{answer:`Heatmap`}),` uses coloured areas to identify high and low values across locations or categories.`]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(u,{answer:`Time-series chart`}),` shows how a variable changes over time.`]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(u,{answer:`Sunburst chart`}),` represents hierarchical data using nested rings.`]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(u,{answer:`Treemap`}),` compares categories using rectangular areas of different sizes.`]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(u,{answer:`Pie chart`}),` displays the proportions of different categories as slices of a circle.`]}),`
+`]}),`
+`]})}),`
+`,(0,n.jsx)(r.hr,{}),`
 `,(0,n.jsxs)(r.p,{children:[`Watch the video about `,(0,n.jsx)(r.a,{href:`https://www.youtube.com/watch?v=QlE2pdb1rxQ`,children:`GIS`}),` and complete the transcipt.`]}),`
 `,(0,n.jsx)(l,{words:`accessible; data; location; map; satellites; spatial`,children:(0,n.jsxs)(r.p,{children:[`Geographic information systems, or GIS, are essential tools used to capture, store, and analyze geographical `,(0,n.jsx)(u,{answer:`data`}),`.\r
 GIS enables us to visualize and understand complex `,(0,n.jsx)(u,{answer:`spatial`}),` relationships, helping us to make informed decisions.\r
@@ -79,8 +183,20 @@ This data is collected, processed, and incorporated into a digital `,(0,n.jsx)(u
 GIS allows us to make data-driven decisions based on accurate `,(0,n.jsx)(u,{answer:`location`}),`-based information.\r
 GIS technology has evolved in recent years, making it more `,(0,n.jsx)(u,{answer:`accessible`}),` to a wider range of users.`]})}),`
 `,(0,n.jsx)(r.hr,{}),`
+`,(0,n.jsx)(r.p,{children:`*Optional Self-study Questions`}),`
+`,(0,n.jsxs)(r.ol,{children:[`
+`,(0,n.jsx)(r.li,{children:`What are some common uses of GIS in everyday life?`}),`
+`,(0,n.jsx)(r.li,{children:`How have you used GIS in your studies?`}),`
+`,(0,n.jsx)(r.li,{children:`How could GIS be used in your future workplace or profession?`}),`
+`]}),`
+`,(0,n.jsx)(r.p,{children:`1.How could GIS improve decision-making in your community?\r
+2.What role does GIS play in urban planning and development?\r
+3.How can GIS help resolve property subdivision disputes?\r
+4.How can GIS support sustainable land use and environmental protection?`}),`
+`,(0,n.jsx)(r.hr,{}),`
 `,(0,n.jsx)(r.p,{children:`Attributions`}),`
-`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.a,{href:`https://isprs-archives.copernicus.org/articles/XLVI-4-W5-2021/125/2021/isprs-archives-XLVI-4-W5-2021-125-2021.pdf`,children:`https://isprs-archives.copernicus.org/articles/XLVI-4-W5-2021/125/2021/isprs-archives-XLVI-4-W5-2021-125-2021.pdf`})}),`
+`,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.a,{href:`https://www.researchgate.net/publication/357288510_BIG_URBAN_DATA_VISUALIZATION_APPROACHES_WITHIN_THE_SMART_CITY_GIS-BASED_OPEN-SOURCE_DASHBOARD_EXAMPLE`,children:`https://www.researchgate.net/publication/357288510_BIG_URBAN_DATA_VISUALIZATION_APPROACHES_WITHIN_THE_SMART_CITY_GIS-BASED_OPEN-SOURCE_DASHBOARD_EXAMPLE`}),`\r
+`,(0,n.jsx)(r.a,{href:`https://isprs-archives.copernicus.org/articles/XLVI-4-W5-2021/125/2021/isprs-archives-XLVI-4-W5-2021-125-2021.pdf`,children:`https://isprs-archives.copernicus.org/articles/XLVI-4-W5-2021/125/2021/isprs-archives-XLVI-4-W5-2021-125-2021.pdf`})]}),`
 `,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.a,{href:`https://www.youtube.com/watch?v=QlE2pdb1rxQ`,children:`What is GIS? Introduction to Geographic Information Systems`})}),`
 `,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.a,{href:`https://www.oxfordlearnersdictionaries.com/`,children:`Oxford Learner’s Dictionaries`}),`; `,(0,n.jsx)(r.a,{href:`https://www.ldoceonline.com/`,children:`Longman Dictionary of Contemporary English`}),`; `,(0,n.jsx)(r.a,{href:`https://dictionary.cambridge.org/dictionary/english/`,children:`Cambridge Dictionary`}),`. Definitions have been paraphrased.`]}),`
 `,(0,n.jsxs)(r.p,{children:[`Images generated with `,(0,n.jsx)(r.a,{href:`https://www.bing.com/`,children:`Bing`}),`.`]})]})}function i(t={}){let{wrapper:i}={...e(),...t.components};return i?(0,n.jsx)(i,{...t,children:(0,n.jsx)(r,{...t})}):r(t)}function a(e,t){throw Error(`Expected `+(t?`component`:`object`)+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}export{i as default};

@@ -1,15 +1,12 @@
-import{i as e,r as t}from"./index-DE3l6Xkv.js";var n=t();function r(t){let r={a:`a`,h1:`h1`,hr:`hr`,li:`li`,ol:`ol`,p:`p`,...e(),...t.components},{Blank:i,Choice:o,ChoiceSet:s,Choices:c,DragAndDrop:l,DropZone:u,Fillin:d}=r;return i||a(`Blank`,!0),o||a(`Choice`,!0),s||a(`ChoiceSet`,!0),c||a(`Choices`,!0),l||a(`DragAndDrop`,!0),u||a(`DropZone`,!0),d||a(`Fillin`,!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h1,{id:`geographic-coordinate-system`,children:`Geographic Coordinate System`}),`
-`,(0,n.jsxs)(r.ol,{children:[`
-`,(0,n.jsxs)(r.li,{children:[`
-`,(0,n.jsx)(r.p,{children:`How do you think a ship’s captain in the middle of the ocean, with no land in sight, can know exactly where the ship is?`}),`
-`]}),`
-`,(0,n.jsxs)(r.li,{children:[`
-`,(0,n.jsx)(r.p,{children:`What do the words “latitude” and “longitude” mean to you? Have you ever used them?`}),`
-`]}),`
-`,(0,n.jsxs)(r.li,{children:[`
-`,(0,n.jsx)(r.p,{children:`Why might it be useful for every point on Earth to have its own unique “address”?`}),`
-`]}),`
-`]}),`
+import{i as e,r as t}from"./index-1iiLDQ9s.js";var n=t();function r(t){let r={a:`a`,h1:`h1`,hr:`hr`,li:`li`,ol:`ol`,p:`p`,...e(),...t.components},{Blank:i,Choice:o,ChoiceSet:s,Choices:c,DragAndDrop:l,DropZone:u,Fillin:d}=r;return i||a(`Blank`,!0),o||a(`Choice`,!0),s||a(`ChoiceSet`,!0),c||a(`Choices`,!0),l||a(`DragAndDrop`,!0),u||a(`DropZone`,!0),d||a(`Fillin`,!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h1,{id:`geographic-coordinate-system`,children:`Geographic Coordinate System`}),`
+`,(0,n.jsx)(r.p,{children:`Take the quiz.`}),`
+`,(0,n.jsxs)(s,{children:[(0,n.jsxs)(r.ol,{children:[`
+`,(0,n.jsx)(r.li,{children:`How can a ship’s captain in the middle of the ocean, with no land in sight, know exactly where the ship is?`}),`
+`]}),(0,n.jsxs)(c,{single:!0,children:[(0,n.jsx)(o,{children:`A. By looking for the nearest island`}),(0,n.jsx)(o,{correct:!0,children:`B. By using coordinates`}),(0,n.jsx)(o,{children:`C. By measuring how deep the ocean is`}),(0,n.jsx)(o,{children:`D. By guessing based on the direction of the waves`})]}),(0,n.jsxs)(r.ol,{start:`2`,children:[`
+`,(0,n.jsx)(r.li,{children:`What do the words “latitude” and “longitude” describe?`}),`
+`]}),(0,n.jsxs)(c,{single:!0,children:[(0,n.jsx)(o,{children:`A. The height and depth of a place`}),(0,n.jsx)(o,{children:`B. The distance between two oceans`}),(0,n.jsx)(o,{children:`C. The size and shape of a country`}),(0,n.jsx)(o,{correct:!0,children:`D. The position of a place on Earth`})]}),(0,n.jsxs)(r.ol,{start:`3`,children:[`
+`,(0,n.jsx)(r.li,{children:`Why is it useful for every point on Earth to have its own unique “address”?`}),`
+`]}),(0,n.jsxs)(c,{single:!0,children:[(0,n.jsx)(o,{children:`A. So that every place on Earth can be given its own different and memorable name`}),(0,n.jsx)(o,{children:`B. So that maps can be made easier to read without needing any other information`}),(0,n.jsx)(o,{correct:!0,children:`C. So that people can identify and locate any place on Earth accurately`}),(0,n.jsx)(o,{children:`D. So that countries can become larger by giving more land its own unique address`})]})]}),`
 `,(0,n.jsx)(r.hr,{}),`
 `,(0,n.jsx)(r.p,{children:`Match the terms to their definitions.`}),`
 `,(0,n.jsxs)(l,{words:`antimeridian;arc degree;the equator;geographic coordinate system;hemisphere;latitude;longitude;meridian;parallel;pole;prime meridian;solstice;Tropic of Cancer;Tropic of Capricorn`,children:[(0,n.jsxs)(r.p,{children:[(0,n.jsx)(u,{answer:`meridian`}),`An imaginary line running from pole to pole that connects all points of equal longitude.`]}),(0,n.jsxs)(r.p,{children:[(0,n.jsx)(u,{answer:`prime meridian`}),`The imaginary line at 0° longitude, passing through Greenwich, England.`]}),(0,n.jsxs)(r.p,{children:[(0,n.jsx)(u,{answer:`pole`}),` A point where the Earth’s axis of rotation meets its surface.`]}),(0,n.jsxs)(r.p,{children:[(0,n.jsx)(u,{answer:`latitude`}),`The angular distance of a place north or south of the equator.`]}),(0,n.jsxs)(r.p,{children:[(0,n.jsx)(u,{answer:`geographic coordinate system`}),`A framework of intersecting lines used to specify any location on the Earth’s surface.`]}),(0,n.jsxs)(r.p,{children:[(0,n.jsx)(u,{answer:`Tropic of Capricorn`}),`The parallel of latitude at approximately 23.5° south, marking the southern edge of the tropics.`]}),(0,n.jsxs)(r.p,{children:[(0,n.jsx)(u,{answer:`parallel`}),`An imaginary line circling the Earth parallel to the equator, connecting points of equal latitude.`]}),(0,n.jsxs)(r.p,{children:[(0,n.jsx)(u,{answer:`the equator`}),`The imaginary line circling the Earth exactly halfway between the two poles, at 0° latitude.`]}),(0,n.jsxs)(r.p,{children:[(0,n.jsx)(u,{answer:`longitude`}),`The angular distance of a place east or west of the Prime Meridian.`]}),(0,n.jsxs)(r.p,{children:[(0,n.jsx)(u,{answer:`Tropic of Cancer`}),`The parallel of latitude at approximately 23.5° north, marking the northern edge of the tropics.`]}),(0,n.jsxs)(r.p,{children:[(0,n.jsx)(u,{answer:`hemisphere`}),` Half of the Earth, usually divided into Northern and Southern or Eastern and Western halves.`]}),(0,n.jsxs)(r.p,{children:[(0,n.jsx)(u,{answer:`solstice`}),` The two times of the year when the sun is at its highest or lowest point in the sky at noon, marking the longest and shortest days.`]}),(0,n.jsxs)(r.p,{children:[(0,n.jsx)(u,{answer:`arc degree`}),` A unit of measurement for latitude or longitude, representing one degree of a circle around the Earth’s surface.`]}),(0,n.jsxs)(r.p,{children:[(0,n.jsx)(u,{answer:`antimeridian`}),` The line of longitude at 180°, opposite the Prime Meridian, used as the basis for the International Date Line.`]})]}),`
@@ -58,18 +55,44 @@ import{i as e,r as t}from"./index-DE3l6Xkv.js";var n=t();function r(t){let r={a:
 `]})}),`
 `,(0,n.jsx)(r.hr,{}),`
 `,(0,n.jsx)(r.p,{children:`Complete each sentence with the correct preposition. Check the context in which they appear in the text above.`}),`
-`,(0,n.jsx)(d,{children:(0,n.jsxs)(r.p,{children:[`The survey team established a control point `,(0,n.jsx)(i,{answer:`on`}),` Earth before beginning the regional survey.\r
-The benchmark is located `,(0,n.jsx)(i,{answer:`at`}),` 52.2° N, which places it within the temperate zone.\r
-Each degree of latitude is conventionally `,(0,n.jsx)(i,{answer:`divided into`}),` 60 minutes.\r
-A survey conducted `,(0,n.jsx)(i,{answer:`at`}),` the pole requires special consideration because the meridians converge there.\r
-`,(0,n.jsx)(i,{answer:`At`}),` the equator, one degree of longitude corresponds to a greater ground distance than it does at higher latitudes.\r
-The surveyor used a reference star visible `,(0,n.jsx)(i,{answer:`on`}),` the horizon to establish the instrument’s orientation.\r
-The project covers several countries `,(0,n.jsx)(i,{answer:`in`}),` the Northern Hemisphere.\r
-The prime meridian `,(0,n.jsx)(i,{answer:`passes through`}),` Greenwich and serves as the zero reference for longitude.\r
-Lines of latitude are approximately `,(0,n.jsx)(i,{answer:`parallel to`}),` one another, although their physical length varies with latitude.\r
-`,(0,n.jsx)(i,{answer:`At`}),` the location of the proposed bridge, the two coordinate systems produce slightly different positional values.\r
-The GNSS receiver was calibrated `,(0,n.jsx)(i,{answer:`at`}),` a reference point with precisely known coordinates.\r
-Accurate positioning `,(0,n.jsx)(i,{answer:`at`}),` sea is particularly important when conducting offshore hydrographic surveys.`]})}),`
+`,(0,n.jsx)(d,{children:(0,n.jsxs)(r.ol,{children:[`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`The survey team established a control point `,(0,n.jsx)(i,{answer:`on`}),` Earth before beginning the regional survey.`]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`The benchmark is located `,(0,n.jsx)(i,{answer:`at`}),` 52.2° N, which places it within the temperate zone.`]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`Each degree of latitude is conventionally `,(0,n.jsx)(i,{answer:`divided into`}),` 60 minutes.`]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`A survey conducted `,(0,n.jsx)(i,{answer:`at`}),` the pole requires special consideration because the meridians converge there.`]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(i,{answer:`At`}),` the equator, one degree of longitude corresponds to a greater ground distance than it does at higher latitudes.`]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`The surveyor used a reference star visible `,(0,n.jsx)(i,{answer:`on`}),` the horizon to establish the instrument’s orientation.`]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`The project covers several countries `,(0,n.jsx)(i,{answer:`in`}),` the Northern Hemisphere.`]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`The prime meridian `,(0,n.jsx)(i,{answer:`passes through`}),` Greenwich and serves as the zero reference for longitude.`]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`Lines of latitude are approximately `,(0,n.jsx)(i,{answer:`parallel to`}),` one another, although their physical length varies with latitude.`]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(i,{answer:`At`}),` the location of the proposed bridge, the two coordinate systems produce slightly different positional values.`]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`The GNSS receiver was calibrated `,(0,n.jsx)(i,{answer:`at`}),` a reference point with precisely known coordinates.`]}),`
+`]}),`
+`,(0,n.jsxs)(r.li,{children:[`
+`,(0,n.jsxs)(r.p,{children:[`Accurate positioning `,(0,n.jsx)(i,{answer:`at`}),` sea is particularly important when conducting offshore hydrographic surveys.`]}),`
+`]}),`
+`]})}),`
 `,(0,n.jsx)(r.hr,{}),`
 `,(0,n.jsxs)(r.p,{children:[`Watch the video `,(0,n.jsx)(r.a,{href:`https://www.youtube.com/watch?v=vnTGu2l8htU`,children:`Geodetic Control in Land Surveying: Active vs Passive`}),` and decide if the statements are true or false.`]}),`
 `,(0,n.jsxs)(s,{children:[(0,n.jsx)(r.p,{children:`1.Passive control marks got their name because they are usually placed in remote locations that surveyors rarely visit.`}),(0,n.jsxs)(c,{single:!0,children:[(0,n.jsx)(o,{children:`True`}),(0,n.jsx)(o,{correct:!0,children:`False`})]}),(0,n.jsx)(r.p,{children:`2.More than 800,000 passive control marks across the country were installed mainly by private surveying companies.`}),(0,n.jsxs)(c,{single:!0,children:[(0,n.jsx)(o,{children:`True`}),(0,n.jsx)(o,{correct:!0,children:`False`})]}),(0,n.jsxs)(r.ol,{start:`3`,children:[`
