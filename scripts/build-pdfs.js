@@ -1,5 +1,6 @@
 import { globSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
-import { dirname } from "node:path";
+import { dirname, join } from "node:path";
+import matter from "gray-matter";
 import { preview } from "vite";
 import puppeteer from "puppeteer";
 import { PDFDocument } from "pdf-lib";
@@ -15,11 +16,12 @@ const footer = (url, numbered) => `
   <style>@font-face { font-family: Rubik; src: url(${font}); }</style>
   <div style="display: flex; align-items: center; gap: 2mm; box-sizing: border-box; width: 100%; padding: 0 ${MARGIN.right} 0 ${MARGIN.left}; font: 7pt Rubik, sans-serif; color: #504d48;">
     <img src="${logo}" style="height: 6mm;">
-    <span>${url.replace(/^https:\/\//, "")}</span>
+    <a href="${url}" style="color: inherit; text-decoration: none;">${url.replace(/^https:\/\//, "")}</a>
     ${numbered ? `<span class="pageNumber" style="margin-left: auto;"></span>` : ""}
   </div>`;
 
 const slugs = globSync("**/*.mdx", { cwd: "articles" })
+  .filter(file => matter(readFileSync(join("articles", file))).data.pdf !== false)
   .map(file => file.replaceAll("\\", "/").replace(/(\/index)?\.mdx$/, ""));
 
 const server = await preview({ logLevel: "warn" });

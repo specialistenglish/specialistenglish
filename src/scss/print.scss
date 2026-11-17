@@ -37,14 +37,16 @@
   }
 
   .separator,
-  p:has(+ .DragAndDrop, + .FillIn, + .Choices, + .ChoiceSet, + .Categorize, + .Img) {
+  :is(p, ol, ul):has(+ .DragAndDrop, + .FillIn, + .Choices, + .ChoiceSet, + .Categorize, + .Img) {
     break-after: avoid;
   }
 
+  li,
   .Img,
   table,
-  .Choice,
-  .CategoryBucket {
+  .Choices,
+  .Categorize,
+  :is(.DragAndDrop, .FillIn) :is(ol, ul) {
     break-inside: avoid;
   }
 

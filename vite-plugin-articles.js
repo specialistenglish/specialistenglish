@@ -33,6 +33,7 @@ function parseArticle(filePath, slug) {
     image: data.image,
     imageAlt: data.imageAlt,
     order: data.order,
+    pdf: data.pdf !== false,
     date,
     slug
   };
