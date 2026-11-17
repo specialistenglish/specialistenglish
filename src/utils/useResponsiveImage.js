@@ -52,7 +52,7 @@ export function useResponsiveImage(src, eager = false) {
       imgRef.current.srcset = srcset;
     };
 
-    if (eager) {
+    if (eager || window.matchMedia("print").matches) {
       activate(containerRef.current?.getBoundingClientRect().width ?? 1024);
       return;
     }

@@ -1,22 +1,32 @@
-const FENCE = /^\s*(```|~~~)/;
+const FENCE = /^\s*(`{3,}|~{3,})/;
 const ITEM = /^([ \t]*)([-*+]|\d+[.)])([ \t]+)/;
 
 function width(indent) {
-  return indent.replace(/\t/g, "    ").length;
+  let column = 0;
+  for (const char of indent) column += char === "\t" ? 4 - (column % 4) : 1;
+  return column;
 }
 
 export function normalize(code) {
-  let inFence = false;
+  let frontmatter = /^---\r?\n/.test(code);
+  let fence = null;
   let stack = [];
 
   return code
     .split("\n")
-    .map(line => {
-      if (FENCE.test(line)) {
-        inFence = !inFence;
+    .map((line, index) => {
+      if (frontmatter) {
+        if (index > 0 && line.trim() === "---") frontmatter = false;
         return line;
       }
-      if (inFence) return line;
+
+      const delimiter = line.match(FENCE);
+      if (delimiter) {
+        if (!fence) fence = delimiter[1];
+        else if (delimiter[1][0] === fence[0] && delimiter[1].length >= fence.length) fence = null;
+        return line;
+      }
+      if (fence) return line;
 
       const match = line.match(ITEM);
       if (!match) {
@@ -50,7 +60,8 @@ export default function listIndentPlugin() {
     enforce: "pre",
     transform(code, id) {
       if (!id.split("?")[0].endsWith(".mdx")) return null;
-      return { code: normalize(code), map: null };
+      const normalized = normalize(code);
+      return normalized === code ? null : { code: normalized, map: null };
     },
   };
 }

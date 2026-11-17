@@ -12,6 +12,9 @@
 @use "Categorize";
 @use "FillIn";
 
+/* print, last so it overrides the above */
+@use "print";
+
 @font-face {
   font-family: "Rubik";
   src: url("/fonts/Rubik-VariableFont_wght.ttf") format("truetype");

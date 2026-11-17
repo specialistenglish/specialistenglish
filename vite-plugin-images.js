@@ -8,32 +8,37 @@ const VIRTUAL_ID = "virtual:image-sizes";
 const RESOLVED_ID = "\0virtual:image-sizes";
 const QUALITY = 75;
 
-function srcDir() {
-  return resolve("public", "articles");
-}
-
-function imageFiles() {
-  const dir = srcDir();
+function imageFiles(dir) {
   if (!existsSync(dir)) return [];
   return readdirSync(dir)
     .filter(f => IMAGE_EXTS.has(extname(f).toLowerCase()))
     .map(f => ({ file: f, path: join(dir, f) }));
 }
 
-async function buildSizesMap() {
-  const map = {};
-  for (const { file, path } of imageFiles()) {
-    const { width } = await sharp(path).metadata();
-    map[`articles/${file}`] = width;
-  }
-  return map;
-}
-
 export default function imagesPlugin() {
+  let srcDir = null;
   let sizesMap = null;
+  const widths = new Map();
+
+  async function widthOf(path) {
+    if (!widths.has(path)) widths.set(path, (await sharp(path).metadata()).width);
+    return widths.get(path);
+  }
+
+  async function buildSizesMap() {
+    const map = {};
+    for (const { file, path } of imageFiles(srcDir)) {
+      map[`articles/${file}`] = await widthOf(path);
+    }
+    return map;
+  }
 
   return {
     name: "vite-plugin-images",
+
+    configResolved(config) {
+      srcDir = resolve(config.publicDir, "articles");
+    },
 
     async buildStart() {
       sizesMap = await buildSizesMap();
@@ -50,9 +55,9 @@ export default function imagesPlugin() {
     },
 
     async generateBundle() {
-      for (const { file, path } of imageFiles()) {
+      for (const { file, path } of imageFiles(srcDir)) {
         const name = basename(file, extname(file));
-        const { width: origWidth } = await sharp(path).metadata();
+        const origWidth = await widthOf(path);
 
         for (const w of WIDTHS) {
           if (w > origWidth) continue;
@@ -66,14 +71,16 @@ export default function imagesPlugin() {
     },
 
     configureServer(server) {
-      server.watcher.add(srcDir());
-      server.watcher.on("add", file => {
-        if (IMAGE_EXTS.has(extname(file).toLowerCase())) {
-          sizesMap = null;
-          const mod = server.moduleGraph.getModuleById(RESOLVED_ID);
-          if (mod) server.moduleGraph.invalidateModule(mod);
-        }
-      });
+      const refresh = file => {
+        if (!IMAGE_EXTS.has(extname(file).toLowerCase())) return;
+        sizesMap = null;
+        widths.delete(file);
+        const mod = server.moduleGraph.getModuleById(RESOLVED_ID);
+        if (mod) server.moduleGraph.invalidateModule(mod);
+      };
+
+      server.watcher.add(srcDir);
+      server.watcher.on("add", refresh).on("change", refresh).on("unlink", refresh);
     },
   };
 }

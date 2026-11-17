@@ -34,6 +34,8 @@ order: 1
 
 `order` is optional. Articles are sorted by `order` ascending (default 0), then by `date` descending, then alphabetically by slug. Articles with no date appear after all dated ones.
 
+`pdf: false` is optional. By default every article gets a PDF version, generated during `npm run deploy` and linked as "download PDF" under the title. Set `pdf: false` to skip the PDF and hide the link for that article.
+
 The Vite plugin reads all `.mdx` frontmatter at build time and regenerates the article list automatically on save.
 
 ### Category article with sub-articles
@@ -116,9 +118,9 @@ There can be multiple correct answers. `explanation` is optional and shown after
 
 **`<Choices>`**
 
-| Prop     | Type    | Description                                                 |
-| -------- | ------- | ----------------------------------------------------------- |
-| `single` | boolean | Only one answer can be selected at a time (radio behaviour) |
+| Prop     | Type    | Description                                                |
+| -------- | ------- | ---------------------------------------------------------- |
+| `single` | boolean | Only one answer can be selected at a time (radio behavior) |
 
 **`<Choice>`**
 
